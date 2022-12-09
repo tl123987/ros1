@@ -1,0 +1,16 @@
+<launch>
+   <!--node外不加-->
+   <param name="param_a" type="int" value="1000"  />
+   <rosparam command="load" file="$(find launch)/launch/params.yaml"/>
+
+   <!--内加name 前缀-->
+   <node pkg="turtlesim"  type="turtlesim_node" name="may_turt" output="screen" >
+      <remap from="/turtle1/cmd_vel"  to="/cmd_vel" />
+      <param name="param_b" type="double" value="3.15" />
+      <rosparam command="load" file="$(find launch)/launch/params.yaml" />
+   </node>
+
+   <node pkg="turtlesim"  type="turtle_teleop_key" name="may_key" output="screen" />
+   
+
+</launch>

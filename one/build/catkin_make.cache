@@ -1,0 +1,2 @@
+msex:op:ser:top
+-DCATKIN_DEVEL_PREFIX=/home/y/桌面/ros resoure/ros1/one/devel -DCMAKE_INSTALL_PREFIX=/home/y/桌面/ros resoure/ros1/one/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/y/桌面/ros resoure/ros1/five/devel
+
+Name: top
+Description: Description of top
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

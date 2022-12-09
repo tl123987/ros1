@@ -1,0 +1,8 @@
+prefix=/home/y/桌面/ros resoure/ros1/one/devel
+
+Name: op
+Description: Description of op
+Version: 0.0.0
+Cflags: -I/home/y/桌面/ros resoure/ros1/one/src/op/include
+Libs: -L${prefix}/lib 
+Requires: 

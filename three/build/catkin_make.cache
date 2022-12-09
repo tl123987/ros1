@@ -1,0 +1,2 @@
+test
+-DCATKIN_DEVEL_PREFIX=/home/y/桌面/ros resoure/ros1/three/devel -DCMAKE_INSTALL_PREFIX=/home/y/桌面/ros resoure/ros1/three/install -G Unix Makefiles

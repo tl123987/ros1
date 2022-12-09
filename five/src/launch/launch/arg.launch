@@ -1,0 +1,10 @@
+<!--动态传参-->
+
+<launch>
+  <arg name="car_legth" default="0.5"/>
+
+  <param name= "a" value="$(arg car_legth)"/>
+  <param name= "b" value="$(arg car_legth)"/>
+  <param name= "c" value="$(arg car_legth)"/>
+  
+</launch>

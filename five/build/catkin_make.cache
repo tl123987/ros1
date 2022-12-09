@@ -1,0 +1,2 @@
+msex:my_bag:op:ser:top
+-DCATKIN_DEVEL_PREFIX=/home/y/桌面/ros resoure/ros1/five/devel -DCMAKE_INSTALL_PREFIX=/home/y/桌面/ros resoure/ros1/five/install -G Unix Makefiles
