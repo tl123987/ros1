@@ -1,0 +1,8 @@
+prefix=/media/y/Elements/ubuntu/ros resoure/ros1/six/devel
+
+Name: gesture
+Description: Description of gesture
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

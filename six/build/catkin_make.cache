@@ -1,2 +1,2 @@
-
+gesture
 -DCATKIN_DEVEL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/six/devel -DCMAKE_INSTALL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/six/install -G Unix Makefiles
