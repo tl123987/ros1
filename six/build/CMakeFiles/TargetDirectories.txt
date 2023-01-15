@@ -39,6 +39,7 @@
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/install.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/list_install_components.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/edit_cache.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/sub.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/std_msgs_generate_messages_py.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/std_msgs_generate_messages_lisp.dir
@@ -58,6 +59,7 @@
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/roscpp_generate_messages_cpp.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/pub.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/roscpp_generate_messages_py.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/install/local.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir

@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+gesture/CMakeFiles/sub.dir/rule:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f CMakeFiles/Makefile2 gesture/CMakeFiles/sub.dir/rule
+.PHONY : gesture/CMakeFiles/sub.dir/rule
+
+# Convenience name for target.
+sub: gesture/CMakeFiles/sub.dir/rule
+
+.PHONY : sub
+
+# fast build rule for target.
+sub/fast:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/sub.dir/build.make gesture/CMakeFiles/sub.dir/build
+.PHONY : sub/fast
+
+# Convenience name for target.
 gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
 	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f CMakeFiles/Makefile2 gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
@@ -438,6 +453,21 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+gesture/CMakeFiles/pub.dir/rule:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f CMakeFiles/Makefile2 gesture/CMakeFiles/pub.dir/rule
+.PHONY : gesture/CMakeFiles/pub.dir/rule
+
+# Convenience name for target.
+pub: gesture/CMakeFiles/pub.dir/rule
+
+.PHONY : pub
+
+# fast build rule for target.
+pub/fast:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/pub.dir/build.make gesture/CMakeFiles/pub.dir/build
+.PHONY : pub/fast
+
+# Convenience name for target.
 gesture/CMakeFiles/roscpp_generate_messages_py.dir/rule:
 	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f CMakeFiles/Makefile2 gesture/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : gesture/CMakeFiles/roscpp_generate_messages_py.dir/rule
@@ -692,6 +722,60 @@ actionlib_msgs_generate_messages_lisp/fast:
 	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
+src/pub.o: src/pub.cpp.o
+
+.PHONY : src/pub.o
+
+# target to build an object file
+src/pub.cpp.o:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/pub.dir/build.make gesture/CMakeFiles/pub.dir/src/pub.cpp.o
+.PHONY : src/pub.cpp.o
+
+src/pub.i: src/pub.cpp.i
+
+.PHONY : src/pub.i
+
+# target to preprocess a source file
+src/pub.cpp.i:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/pub.dir/build.make gesture/CMakeFiles/pub.dir/src/pub.cpp.i
+.PHONY : src/pub.cpp.i
+
+src/pub.s: src/pub.cpp.s
+
+.PHONY : src/pub.s
+
+# target to generate assembly for a file
+src/pub.cpp.s:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/pub.dir/build.make gesture/CMakeFiles/pub.dir/src/pub.cpp.s
+.PHONY : src/pub.cpp.s
+
+src/sub.o: src/sub.cpp.o
+
+.PHONY : src/sub.o
+
+# target to build an object file
+src/sub.cpp.o:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/sub.dir/build.make gesture/CMakeFiles/sub.dir/src/sub.cpp.o
+.PHONY : src/sub.cpp.o
+
+src/sub.i: src/sub.cpp.i
+
+.PHONY : src/sub.i
+
+# target to preprocess a source file
+src/sub.cpp.i:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/sub.dir/build.make gesture/CMakeFiles/sub.dir/src/sub.cpp.i
+.PHONY : src/sub.cpp.i
+
+src/sub.s: src/sub.cpp.s
+
+.PHONY : src/sub.s
+
+# target to generate assembly for a file
+src/sub.cpp.s:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f gesture/CMakeFiles/sub.dir/build.make gesture/CMakeFiles/sub.dir/src/sub.cpp.s
+.PHONY : src/sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -702,6 +786,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... sub"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -721,6 +806,7 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... pub"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... install/local"
 	@echo "... rosgraph_msgs_generate_messages_eus"
@@ -740,6 +826,12 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... src/pub.o"
+	@echo "... src/pub.i"
+	@echo "... src/pub.s"
+	@echo "... src/sub.o"
+	@echo "... src/sub.i"
+	@echo "... src/sub.s"
 .PHONY : help
 
 

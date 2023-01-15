@@ -79,7 +79,8 @@ clean: gesture/clean
 # Directory level rules for directory gesture
 
 # Recursive "all" directory target.
-gesture/all:
+gesture/all: gesture/CMakeFiles/sub.dir/all
+gesture/all: gesture/CMakeFiles/pub.dir/all
 
 .PHONY : gesture/all
 
@@ -89,6 +90,7 @@ gesture/preinstall:
 .PHONY : gesture/preinstall
 
 # Recursive "clean" directory target.
+gesture/clean: gesture/CMakeFiles/sub.dir/clean
 gesture/clean: gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 gesture/clean: gesture/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 gesture/clean: gesture/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
@@ -107,6 +109,7 @@ gesture/clean: gesture/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 gesture/clean: gesture/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 gesture/clean: gesture/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 gesture/clean: gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+gesture/clean: gesture/CMakeFiles/pub.dir/clean
 gesture/clean: gesture/CMakeFiles/roscpp_generate_messages_py.dir/clean
 gesture/clean: gesture/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 gesture/clean: gesture/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean
@@ -427,6 +430,67 @@ gtest: gtest/googletest/CMakeFiles/gtest.dir/rule
 gtest/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target gesture/CMakeFiles/sub.dir
+
+# All Build rule for target.
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_eus.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_py.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_py.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_eus.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/sub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f gesture/CMakeFiles/sub.dir/build.make gesture/CMakeFiles/sub.dir/depend
+	$(MAKE) -f gesture/CMakeFiles/sub.dir/build.make gesture/CMakeFiles/sub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num=11,12 "Built target sub"
+.PHONY : gesture/CMakeFiles/sub.dir/all
+
+# Build rule for subdir invocation for target.
+gesture/CMakeFiles/sub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 gesture/CMakeFiles/sub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : gesture/CMakeFiles/sub.dir/rule
+
+# Convenience name for target.
+sub: gesture/CMakeFiles/sub.dir/rule
+
+.PHONY : sub
+
+# clean rule for target.
+gesture/CMakeFiles/sub.dir/clean:
+	$(MAKE) -f gesture/CMakeFiles/sub.dir/build.make gesture/CMakeFiles/sub.dir/clean
+.PHONY : gesture/CMakeFiles/sub.dir/clean
 
 #=============================================================================
 # Target rules for target gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir
@@ -913,6 +977,67 @@ geometry_msgs_generate_messages_eus: gesture/CMakeFiles/geometry_msgs_generate_m
 gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 	$(MAKE) -f gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 .PHONY : gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target gesture/CMakeFiles/pub.dir
+
+# All Build rule for target.
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_eus.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_py.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_py.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_eus.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+gesture/CMakeFiles/pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f gesture/CMakeFiles/pub.dir/build.make gesture/CMakeFiles/pub.dir/depend
+	$(MAKE) -f gesture/CMakeFiles/pub.dir/build.make gesture/CMakeFiles/pub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num=9,10 "Built target pub"
+.PHONY : gesture/CMakeFiles/pub.dir/all
+
+# Build rule for subdir invocation for target.
+gesture/CMakeFiles/pub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 gesture/CMakeFiles/pub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : gesture/CMakeFiles/pub.dir/rule
+
+# Convenience name for target.
+pub: gesture/CMakeFiles/pub.dir/rule
+
+.PHONY : pub
+
+# clean rule for target.
+gesture/CMakeFiles/pub.dir/clean:
+	$(MAKE) -f gesture/CMakeFiles/pub.dir/build.make gesture/CMakeFiles/pub.dir/clean
+.PHONY : gesture/CMakeFiles/pub.dir/clean
 
 #=============================================================================
 # Target rules for target gesture/CMakeFiles/roscpp_generate_messages_py.dir
