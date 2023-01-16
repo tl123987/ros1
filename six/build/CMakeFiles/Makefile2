@@ -55,12 +55,14 @@ CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/build"
 # The main recursive "all" target.
 all: gtest/all
 all: gesture/all
+all: ges_dy/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: gesture/preinstall
+preinstall: ges_dy/preinstall
 
 .PHONY : preinstall
 
@@ -72,8 +74,37 @@ clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: gesture/clean
+clean: ges_dy/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ges_dy
+
+# Recursive "all" directory target.
+ges_dy/all: ges_dy/CMakeFiles/tu_pub.dir/all
+
+.PHONY : ges_dy/all
+
+# Recursive "preinstall" directory target.
+ges_dy/preinstall:
+
+.PHONY : ges_dy/preinstall
+
+# Recursive "clean" directory target.
+ges_dy/clean: ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/tu_pub.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+ges_dy/clean: ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+
+.PHONY : ges_dy/clean
 
 #=============================================================================
 # Directory level rules for directory gesture
@@ -1497,6 +1528,347 @@ actionlib_msgs_generate_messages_lisp: gesture/CMakeFiles/actionlib_msgs_generat
 gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean:
 	$(MAKE) -f gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 .PHONY : gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_cpp"
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_cpp: ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+
+.PHONY : turtlesim_generate_messages_cpp
+
+# clean rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_eus"
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_eus: ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
+
+.PHONY : turtlesim_generate_messages_eus
+
+# clean rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_lisp"
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_lisp: ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+
+.PHONY : turtlesim_generate_messages_lisp
+
+# clean rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_nodejs"
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_nodejs: ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
+
+.PHONY : turtlesim_generate_messages_nodejs
+
+# clean rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_py"
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_py: ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+.PHONY : std_srvs_generate_messages_py
+
+# clean rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_cpp"
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_cpp: ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+.PHONY : std_srvs_generate_messages_cpp
+
+# clean rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_eus"
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_eus: ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+.PHONY : std_srvs_generate_messages_eus
+
+# clean rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_lisp"
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+.PHONY : std_srvs_generate_messages_lisp
+
+# clean rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/tu_pub.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/roscpp_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: gesture/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/std_srvs_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/all
+ges_dy/CMakeFiles/tu_pub.dir/all: ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+	$(MAKE) -f ges_dy/CMakeFiles/tu_pub.dir/build.make ges_dy/CMakeFiles/tu_pub.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/tu_pub.dir/build.make ges_dy/CMakeFiles/tu_pub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num=13,14 "Built target tu_pub"
+.PHONY : ges_dy/CMakeFiles/tu_pub.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/tu_pub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/tu_pub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/tu_pub.dir/rule
+
+# Convenience name for target.
+tu_pub: ges_dy/CMakeFiles/tu_pub.dir/rule
+
+.PHONY : tu_pub
+
+# clean rule for target.
+ges_dy/CMakeFiles/tu_pub.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/tu_pub.dir/build.make ges_dy/CMakeFiles/tu_pub.dir/clean
+.PHONY : ges_dy/CMakeFiles/tu_pub.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_py"
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_py: ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+
+.PHONY : turtlesim_generate_messages_py
+
+# clean rule for target.
+ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/build.make ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+.PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_nodejs"
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(MAKE) -f CMakeFiles/Makefile2 ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_nodejs: ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_srvs_generate_messages_nodejs
+
+# clean rule for target.
+ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+.PHONY : ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

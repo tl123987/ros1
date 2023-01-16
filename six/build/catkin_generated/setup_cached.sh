@@ -10,5 +10,6 @@
 export CMAKE_PREFIX_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/six/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/media/y/Elements/ubuntu/ros resoure/ros1/six/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/six/src:$ROS_PACKAGE_PATH"
