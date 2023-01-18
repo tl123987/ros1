@@ -1,0 +1,8 @@
+prefix=/media/y/Elements/ubuntu/ros resoure/ros1/six/install
+
+Name: dy_trans
+Description: Description of dy_trans
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
