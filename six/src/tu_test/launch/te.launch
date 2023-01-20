@@ -1,0 +1,14 @@
+<launch>
+
+<node pkg="turtlesim" type="turtlesim_node" name="turtle1" output="screen"/>
+<node pkg="turtlesim" type="turtle_teleop_key" name="key" output="screen"/>
+
+<node pkg="tu_test" type="new" name="turtle2" output="screen"/>
+<!--编写一只乌龟跟随另一只乌龟运动
+    节点只编写一个 发布两次
+    节点启动传参数
+-->
+<node pkg="tu_test" type="pub_tu" name="pub1" args="turtle1" output="screen"/>
+<node pkg="tu_test" type="pub_tu" name="pub2" args="turtle2" output="screen"/>
+
+</launch>

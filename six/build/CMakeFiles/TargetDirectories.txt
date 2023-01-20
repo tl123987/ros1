@@ -106,3 +106,12 @@
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir
 /media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy/CMakeFiles/test.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/install/strip.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/install/local.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/install.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/list_install_components.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/rebuild_cache.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/edit_cache.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/test.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/pub_tu.dir
+/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/CMakeFiles/new.dir

@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans/cmake_install.cmake")
   include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/cmake_install.cmake")
   include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy/cmake_install.cmake")
+  include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/cmake_install.cmake")
 
 endif()
 

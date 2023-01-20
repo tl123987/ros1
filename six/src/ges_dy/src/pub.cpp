@@ -28,9 +28,9 @@ void dopose(const turtlesim::Pose::ConstPtr& pose)
     tf2::Quaternion qtn;
     qtn.setRPY(0,0,pose->theta);
     ts.transform.rotation.x=qtn.getX();
-    ts.transform.rotation.x=qtn.getY();
-    ts.transform.rotation.x=qtn.getZ();
-    ts.transform.rotation.x=qtn.getW();
+    ts.transform.rotation.y=qtn.getY();
+    ts.transform.rotation.z=qtn.getZ();
+    ts.transform.rotation.w=qtn.getW();
     //发布
     pub.sendTransform(ts);
 }

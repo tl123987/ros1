@@ -3,7 +3,12 @@
 #include"tf2_ros/buffer.h"
 #include"geometry_msgs/PointStamped.h"
 #include"tf2_geometry_msgs/tf2_geometry_msgs.h"
-//动态坐标变换
+/*动态坐标变换
+乌龟相对于世界坐标系的坐标系关系
+
+
+
+*/
 int main(int argc, char** argv) {
     setlocale(LC_ALL,"");
     ros::init(argc,argv,"static_sub");

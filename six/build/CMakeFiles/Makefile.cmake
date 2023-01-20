@@ -19,6 +19,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "ges_dy/catkin_generated/package.cmake"
   "gesture/catkin_generated/ordered_paths.cmake"
   "gesture/catkin_generated/package.cmake"
+  "tu_test/catkin_generated/ordered_paths.cmake"
+  "tu_test/catkin_generated/package.cmake"
   "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/CMakeLists.txt"
   "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/CMakeLists.txt"
   "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/package.xml"
@@ -26,6 +28,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/ges_dy/package.xml"
   "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/CMakeLists.txt"
   "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/package.xml"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/tu_test/CMakeLists.txt"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/tu_test/package.xml"
   "/opt/ros/noetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/noetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/noetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -241,6 +245,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dy_trans/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gesture/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ges_dy/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tu_test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -304,4 +309,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "ges_dy/CMakeFiles/tu_pub.dir/DependInfo.cmake"
   "ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/DependInfo.cmake"
   "ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake"
+  "tu_test/CMakeFiles/pub_tu.dir/DependInfo.cmake"
+  "tu_test/CMakeFiles/new.dir/DependInfo.cmake"
   )

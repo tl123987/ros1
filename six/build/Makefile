@@ -934,6 +934,32 @@ std_srvs_generate_messages_nodejs/fast:
 	$(MAKE) -f ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
+#=============================================================================
+# Target rules for targets named pub_tu
+
+# Build rule for target.
+pub_tu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pub_tu
+.PHONY : pub_tu
+
+# fast build rule for target.
+pub_tu/fast:
+	$(MAKE) -f tu_test/CMakeFiles/pub_tu.dir/build.make tu_test/CMakeFiles/pub_tu.dir/build
+.PHONY : pub_tu/fast
+
+#=============================================================================
+# Target rules for targets named new
+
+# Build rule for target.
+new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 new
+.PHONY : new
+
+# fast build rule for target.
+new/fast:
+	$(MAKE) -f tu_test/CMakeFiles/new.dir/build.make tu_test/CMakeFiles/new.dir/build
+.PHONY : new/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1006,6 +1032,8 @@ help:
 	@echo "... tu_pub"
 	@echo "... turtlesim_generate_messages_py"
 	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... pub_tu"
+	@echo "... new"
 .PHONY : help
 
 

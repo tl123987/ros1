@@ -1,0 +1,8 @@
+prefix=/media/y/Elements/ubuntu/ros resoure/ros1/six/install
+
+Name: tu_test
+Description: Description of tu_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
