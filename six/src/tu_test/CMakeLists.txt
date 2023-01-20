@@ -140,6 +140,7 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/tu_test_node.cpp)
 add_executable(new src/new.cpp)
 add_executable(pub_tu src/pub.cpp)
+add_executable(control_turtle src/control.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -151,6 +152,7 @@ add_executable(pub_tu src/pub.cpp)
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(new ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(pub_tu ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(control_turtle ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
@@ -159,6 +161,9 @@ add_dependencies(pub_tu ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TA
   ${catkin_LIBRARIES}
 )
 target_link_libraries(pub_tu
+${catkin_LIBRARIES}
+)
+target_link_libraries(control_turtle
 ${catkin_LIBRARIES}
 )
 #############

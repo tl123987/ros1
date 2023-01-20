@@ -10,5 +10,6 @@
 -->
 <node pkg="tu_test" type="pub_tu" name="pub1" args="turtle1" output="screen"/>
 <node pkg="tu_test" type="pub_tu" name="pub2" args="turtle2" output="screen"/>
-
+<!--订阅两只乌龟消息，转换同一个坐标，发布线速度，角速度-->
+<node pkg="tu_test" type="control_turtle" name="pub3" args="turtle2" output="screen"/>
 </launch>

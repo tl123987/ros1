@@ -310,5 +310,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "ges_dy/CMakeFiles/turtlesim_generate_messages_py.dir/DependInfo.cmake"
   "ges_dy/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake"
   "tu_test/CMakeFiles/pub_tu.dir/DependInfo.cmake"
+  "tu_test/CMakeFiles/control_turtle.dir/DependInfo.cmake"
   "tu_test/CMakeFiles/new.dir/DependInfo.cmake"
   )

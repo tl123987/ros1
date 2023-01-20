@@ -948,6 +948,19 @@ pub_tu/fast:
 .PHONY : pub_tu/fast
 
 #=============================================================================
+# Target rules for targets named control_turtle
+
+# Build rule for target.
+control_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 control_turtle
+.PHONY : control_turtle
+
+# fast build rule for target.
+control_turtle/fast:
+	$(MAKE) -f tu_test/CMakeFiles/control_turtle.dir/build.make tu_test/CMakeFiles/control_turtle.dir/build
+.PHONY : control_turtle/fast
+
+#=============================================================================
 # Target rules for targets named new
 
 # Build rule for target.
@@ -1033,6 +1046,7 @@ help:
 	@echo "... turtlesim_generate_messages_py"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... pub_tu"
+	@echo "... control_turtle"
 	@echo "... new"
 .PHONY : help
 

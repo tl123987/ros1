@@ -183,6 +183,21 @@ pub_tu/fast:
 .PHONY : pub_tu/fast
 
 # Convenience name for target.
+tu_test/CMakeFiles/control_turtle.dir/rule:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f CMakeFiles/Makefile2 tu_test/CMakeFiles/control_turtle.dir/rule
+.PHONY : tu_test/CMakeFiles/control_turtle.dir/rule
+
+# Convenience name for target.
+control_turtle: tu_test/CMakeFiles/control_turtle.dir/rule
+
+.PHONY : control_turtle
+
+# fast build rule for target.
+control_turtle/fast:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f tu_test/CMakeFiles/control_turtle.dir/build.make tu_test/CMakeFiles/control_turtle.dir/build
+.PHONY : control_turtle/fast
+
+# Convenience name for target.
 tu_test/CMakeFiles/new.dir/rule:
 	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f CMakeFiles/Makefile2 tu_test/CMakeFiles/new.dir/rule
 .PHONY : tu_test/CMakeFiles/new.dir/rule
@@ -196,6 +211,33 @@ new: tu_test/CMakeFiles/new.dir/rule
 new/fast:
 	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f tu_test/CMakeFiles/new.dir/build.make tu_test/CMakeFiles/new.dir/build
 .PHONY : new/fast
+
+src/control.o: src/control.cpp.o
+
+.PHONY : src/control.o
+
+# target to build an object file
+src/control.cpp.o:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f tu_test/CMakeFiles/control_turtle.dir/build.make tu_test/CMakeFiles/control_turtle.dir/src/control.cpp.o
+.PHONY : src/control.cpp.o
+
+src/control.i: src/control.cpp.i
+
+.PHONY : src/control.i
+
+# target to preprocess a source file
+src/control.cpp.i:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f tu_test/CMakeFiles/control_turtle.dir/build.make tu_test/CMakeFiles/control_turtle.dir/src/control.cpp.i
+.PHONY : src/control.cpp.i
+
+src/control.s: src/control.cpp.s
+
+.PHONY : src/control.s
+
+# target to generate assembly for a file
+src/control.cpp.s:
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(MAKE) -f tu_test/CMakeFiles/control_turtle.dir/build.make tu_test/CMakeFiles/control_turtle.dir/src/control.cpp.s
+.PHONY : src/control.cpp.s
 
 src/new.o: src/new.cpp.o
 
@@ -265,7 +307,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... pub_tu"
+	@echo "... control_turtle"
 	@echo "... new"
+	@echo "... src/control.o"
+	@echo "... src/control.i"
+	@echo "... src/control.s"
 	@echo "... src/new.o"
 	@echo "... src/new.i"
 	@echo "... src/new.s"
