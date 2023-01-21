@@ -1,2 +1,2 @@
-dy_trans:ges_dy:gesture:tu_test
+bag_write:dy_trans:ges_dy:gesture:tu_test
 -DCATKIN_DEVEL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/six/devel -DCMAKE_INSTALL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/six/install -G Unix Makefiles
