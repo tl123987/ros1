@@ -17,9 +17,9 @@ add_custom_target(ser_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv" NAME_WE)
 add_custom_target(_ser_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ser" "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ser" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_ser_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(ser
-  "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ser
@@ -49,7 +49,7 @@ add_custom_target(ser_generate_messages_cpp
 add_dependencies(ser_generate_messages ser_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv" NAME_WE)
 add_dependencies(ser_generate_messages_cpp _ser_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ser_generate_messages_cpp)
 
 ### Generating Services
 _generate_srv_eus(ser
-  "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ser
@@ -82,7 +82,7 @@ add_custom_target(ser_generate_messages_eus
 add_dependencies(ser_generate_messages ser_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv" NAME_WE)
 add_dependencies(ser_generate_messages_eus _ser_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ser_generate_messages_eus)
 
 ### Generating Services
 _generate_srv_lisp(ser
-  "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ser
@@ -115,7 +115,7 @@ add_custom_target(ser_generate_messages_lisp
 add_dependencies(ser_generate_messages ser_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv" NAME_WE)
 add_dependencies(ser_generate_messages_lisp _ser_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ser_generate_messages_lisp)
 
 ### Generating Services
 _generate_srv_nodejs(ser
-  "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ser
@@ -148,7 +148,7 @@ add_custom_target(ser_generate_messages_nodejs
 add_dependencies(ser_generate_messages ser_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv" NAME_WE)
 add_dependencies(ser_generate_messages_nodejs _ser_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ser_generate_messages_nodejs)
 
 ### Generating Services
 _generate_srv_py(ser
-  "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ser
@@ -181,7 +181,7 @@ add_custom_target(ser_generate_messages_py
 add_dependencies(ser_generate_messages ser_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/ser/srv/op.srv" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv" NAME_WE)
 add_dependencies(ser_generate_messages_py _ser_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

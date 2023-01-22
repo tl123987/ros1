@@ -7,9 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/y/桌面/ros resoure/ros1/five/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/y/桌面/ros resoure/ros1/five/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/y/桌面/ros resoure/ros1/five/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PYTHONPATH="/home/y/桌面/ros resoure/ros1/five/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/y/桌面/ros resoure/ros1/five/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/y/桌面/ros resoure/ros1/five/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/media/y/Elements/ubuntu/ros resoure/ros1/basic/build'
+export PYTHONPATH="/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/media/y/Elements/ubuntu/ros resoure/ros1/basic/src:$ROS_PACKAGE_PATH"

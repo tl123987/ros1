@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/ser/AddInts_Client"
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/ser/AddInts_Client.pdb"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/ser/AddInts_Client"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/ser/AddInts_Client.pdb"
   "CMakeFiles/AddInts_Client.dir/src/b1.cpp.o"
 )
 

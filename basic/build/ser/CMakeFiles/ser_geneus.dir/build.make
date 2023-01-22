@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/y/桌面/ros resoure/ros1/five/src"
+CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/y/桌面/ros resoure/ros1/five/build"
+CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
 
 # Utility rule file for ser_geneus.
 
@@ -63,10 +63,10 @@ ser/CMakeFiles/ser_geneus.dir/build: ser_geneus
 .PHONY : ser/CMakeFiles/ser_geneus.dir/build
 
 ser/CMakeFiles/ser_geneus.dir/clean:
-	cd "/home/y/桌面/ros resoure/ros1/five/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_geneus.dir/cmake_clean.cmake
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_geneus.dir/cmake_clean.cmake
 .PHONY : ser/CMakeFiles/ser_geneus.dir/clean
 
 ser/CMakeFiles/ser_geneus.dir/depend:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/y/桌面/ros resoure/ros1/five/src" "/home/y/桌面/ros resoure/ros1/five/src/ser" "/home/y/桌面/ros resoure/ros1/five/build" "/home/y/桌面/ros resoure/ros1/five/build/ser" "/home/y/桌面/ros resoure/ros1/five/build/ser/CMakeFiles/ser_geneus.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/CMakeFiles/ser_geneus.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : ser/CMakeFiles/ser_geneus.dir/depend
 

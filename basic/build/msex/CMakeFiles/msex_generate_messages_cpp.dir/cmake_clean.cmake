@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/include/msex/Person.h"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include/msex/Person.h"
   "CMakeFiles/msex_generate_messages_cpp"
 )
 

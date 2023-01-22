@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/share/roseus/ros/msex/manifest.l"
-  "/home/y/桌面/ros resoure/ros1/five/devel/share/roseus/ros/msex/msg/Person.l"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/roseus/ros/msex/manifest.l"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/roseus/ros/msex/msg/Person.l"
   "CMakeFiles/msex_generate_messages_eus"
 )
 

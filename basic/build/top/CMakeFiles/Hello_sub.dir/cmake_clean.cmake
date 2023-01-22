@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/top/Hello_sub"
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/top/Hello_sub.pdb"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/top/Hello_sub"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/top/Hello_sub.pdb"
   "CMakeFiles/Hello_sub.dir/src/a2.cpp.o"
 )
 

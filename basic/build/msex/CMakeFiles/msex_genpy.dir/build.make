@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/y/桌面/ros resoure/ros1/five/src"
+CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/y/桌面/ros resoure/ros1/five/build"
+CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
 
 # Utility rule file for msex_genpy.
 
@@ -63,10 +63,10 @@ msex/CMakeFiles/msex_genpy.dir/build: msex_genpy
 .PHONY : msex/CMakeFiles/msex_genpy.dir/build
 
 msex/CMakeFiles/msex_genpy.dir/clean:
-	cd "/home/y/桌面/ros resoure/ros1/five/build/msex" && $(CMAKE_COMMAND) -P CMakeFiles/msex_genpy.dir/cmake_clean.cmake
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex" && $(CMAKE_COMMAND) -P CMakeFiles/msex_genpy.dir/cmake_clean.cmake
 .PHONY : msex/CMakeFiles/msex_genpy.dir/clean
 
 msex/CMakeFiles/msex_genpy.dir/depend:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/y/桌面/ros resoure/ros1/five/src" "/home/y/桌面/ros resoure/ros1/five/src/msex" "/home/y/桌面/ros resoure/ros1/five/build" "/home/y/桌面/ros resoure/ros1/five/build/msex" "/home/y/桌面/ros resoure/ros1/five/build/msex/CMakeFiles/msex_genpy.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex/CMakeFiles/msex_genpy.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : msex/CMakeFiles/msex_genpy.dir/depend
 

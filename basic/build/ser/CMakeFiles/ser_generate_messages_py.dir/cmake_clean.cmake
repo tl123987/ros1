@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/__init__.py"
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/_op.py"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/__init__.py"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/_op.py"
   "CMakeFiles/ser_generate_messages_py"
 )
 

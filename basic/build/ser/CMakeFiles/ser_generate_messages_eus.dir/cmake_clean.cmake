@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/share/roseus/ros/ser/manifest.l"
-  "/home/y/桌面/ros resoure/ros1/five/devel/share/roseus/ros/ser/srv/op.l"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/roseus/ros/ser/manifest.l"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/roseus/ros/ser/srv/op.l"
   "CMakeFiles/ser_generate_messages_eus"
 )
 

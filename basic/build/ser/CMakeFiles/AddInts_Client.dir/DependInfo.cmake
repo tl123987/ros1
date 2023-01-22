@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/y/桌面/ros resoure/ros1/five/src/ser/src/b1.cpp" "/home/y/桌面/ros resoure/ros1/five/build/ser/CMakeFiles/AddInts_Client.dir/src/b1.cpp.o"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/src/b1.cpp" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/CMakeFiles/AddInts_Client.dir/src/b1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/y/桌面/ros resoure/ros1/five/devel/include"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

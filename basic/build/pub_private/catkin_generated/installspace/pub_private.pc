@@ -1,0 +1,8 @@
+prefix=/media/y/Elements/ubuntu/ros resoure/ros1/basic/install
+
+Name: pub_private
+Description: Description of pub_private
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

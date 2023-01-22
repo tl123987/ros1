@@ -2,7 +2,7 @@
 
 message(STATUS "msex: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Imsex:/home/y/桌面/ros resoure/ros1/five/src/msex/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Imsex:/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(msex_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg" NAME_WE)
 add_custom_target(_msex_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "msex" "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "msex" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg" ""
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_msex_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(msex
-  "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/msex
@@ -49,7 +49,7 @@ add_custom_target(msex_generate_messages_cpp
 add_dependencies(msex_generate_messages msex_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg" NAME_WE)
 add_dependencies(msex_generate_messages_cpp _msex_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS msex_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(msex
-  "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/msex
@@ -82,7 +82,7 @@ add_custom_target(msex_generate_messages_eus
 add_dependencies(msex_generate_messages msex_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg" NAME_WE)
 add_dependencies(msex_generate_messages_eus _msex_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS msex_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(msex
-  "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/msex
@@ -115,7 +115,7 @@ add_custom_target(msex_generate_messages_lisp
 add_dependencies(msex_generate_messages msex_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg" NAME_WE)
 add_dependencies(msex_generate_messages_lisp _msex_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS msex_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(msex
-  "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/msex
@@ -148,7 +148,7 @@ add_custom_target(msex_generate_messages_nodejs
 add_dependencies(msex_generate_messages msex_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg" NAME_WE)
 add_dependencies(msex_generate_messages_nodejs _msex_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS msex_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(msex
-  "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/msex
@@ -181,7 +181,7 @@ add_custom_target(msex_generate_messages_py
 add_dependencies(msex_generate_messages msex_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/y/桌面/ros resoure/ros1/five/src/msex/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg" NAME_WE)
 add_dependencies(msex_generate_messages_py _msex_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

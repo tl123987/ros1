@@ -1,2 +1,2 @@
-msex:my_bag:op:ser:top
--DCATKIN_DEVEL_PREFIX=/home/y/桌面/ros resoure/ros1/five/devel -DCMAKE_INSTALL_PREFIX=/home/y/桌面/ros resoure/ros1/five/install -G Unix Makefiles
+launch:msex:my_bag:op:param:pub_private:ser:test:top
+-DCATKIN_DEVEL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel -DCMAKE_INSTALL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/basic/install -G Unix Makefiles

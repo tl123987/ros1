@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/share/common-lisp/ros/ser/srv/op.lisp"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp/ros/ser/srv/op.lisp"
   "CMakeFiles/ser_generate_messages_lisp"
 )
 

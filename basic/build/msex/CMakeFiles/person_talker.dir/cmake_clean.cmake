@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/msex/person_talker"
-  "/home/y/桌面/ros resoure/ros1/five/devel/lib/msex/person_talker.pdb"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/msex/person_talker"
+  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/msex/person_talker.pdb"
   "CMakeFiles/person_talker.dir/src/b1.cpp.o"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/y/桌面/ros resoure/ros1/five/install
+prefix=/media/y/Elements/ubuntu/ros resoure/ros1/basic/install
 
 Name: op
 Description: Description of op

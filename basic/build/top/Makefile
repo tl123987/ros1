@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/y/桌面/ros resoure/ros1/five/src"
+CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/y/桌面/ros resoure/ros1/five/build"
+CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/y/桌面/ros resoure/ros1/five/build/CMakeFiles" "/home/y/桌面/ros resoure/ros1/five/build/top/CMakeFiles/progress.marks"
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f CMakeFiles/Makefile2 top/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/y/桌面/ros resoure/ros1/five/build/CMakeFiles" 0
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top/CMakeFiles/progress.marks"
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 top/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f CMakeFiles/Makefile2 top/clean
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 top/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f CMakeFiles/Makefile2 top/preinstall
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 top/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f CMakeFiles/Makefile2 top/preinstall
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 top/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 top/CMakeFiles/Hello_sub.dir/rule:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f CMakeFiles/Makefile2 top/CMakeFiles/Hello_sub.dir/rule
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 top/CMakeFiles/Hello_sub.dir/rule
 .PHONY : top/CMakeFiles/Hello_sub.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ Hello_sub: top/CMakeFiles/Hello_sub.dir/rule
 
 # fast build rule for target.
 Hello_sub/fast:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/build
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/build
 .PHONY : Hello_sub/fast
 
 # Convenience name for target.
 top/CMakeFiles/Hello_pub.dir/rule:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f CMakeFiles/Makefile2 top/CMakeFiles/Hello_pub.dir/rule
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 top/CMakeFiles/Hello_pub.dir/rule
 .PHONY : top/CMakeFiles/Hello_pub.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ Hello_pub: top/CMakeFiles/Hello_pub.dir/rule
 
 # fast build rule for target.
 Hello_pub/fast:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/build
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/build
 .PHONY : Hello_pub/fast
 
 src/a1.o: src/a1.cpp.o
@@ -203,7 +203,7 @@ src/a1.o: src/a1.cpp.o
 
 # target to build an object file
 src/a1.cpp.o:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o
 .PHONY : src/a1.cpp.o
 
 src/a1.i: src/a1.cpp.i
@@ -212,7 +212,7 @@ src/a1.i: src/a1.cpp.i
 
 # target to preprocess a source file
 src/a1.cpp.i:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/src/a1.cpp.i
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/src/a1.cpp.i
 .PHONY : src/a1.cpp.i
 
 src/a1.s: src/a1.cpp.s
@@ -221,7 +221,7 @@ src/a1.s: src/a1.cpp.s
 
 # target to generate assembly for a file
 src/a1.cpp.s:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/src/a1.cpp.s
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/src/a1.cpp.s
 .PHONY : src/a1.cpp.s
 
 src/a2.o: src/a2.cpp.o
@@ -230,7 +230,7 @@ src/a2.o: src/a2.cpp.o
 
 # target to build an object file
 src/a2.cpp.o:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/src/a2.cpp.o
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/src/a2.cpp.o
 .PHONY : src/a2.cpp.o
 
 src/a2.i: src/a2.cpp.i
@@ -239,7 +239,7 @@ src/a2.i: src/a2.cpp.i
 
 # target to preprocess a source file
 src/a2.cpp.i:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/src/a2.cpp.i
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/src/a2.cpp.i
 .PHONY : src/a2.cpp.i
 
 src/a2.s: src/a2.cpp.s
@@ -248,7 +248,7 @@ src/a2.s: src/a2.cpp.s
 
 # target to generate assembly for a file
 src/a2.cpp.s:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/src/a2.cpp.s
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/src/a2.cpp.s
 .PHONY : src/a2.cpp.s
 
 # Help Target
@@ -283,6 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

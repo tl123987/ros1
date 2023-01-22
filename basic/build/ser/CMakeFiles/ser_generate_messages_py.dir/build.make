@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/y/桌面/ros resoure/ros1/five/src"
+CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/y/桌面/ros resoure/ros1/five/build"
+CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
 
 # Utility rule file for ser_generate_messages_py.
 
 # Include the progress variables for this target.
 include ser/CMakeFiles/ser_generate_messages_py.dir/progress.make
 
-ser/CMakeFiles/ser_generate_messages_py: /home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/_op.py
-ser/CMakeFiles/ser_generate_messages_py: /home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/__init__.py
+ser/CMakeFiles/ser_generate_messages_py: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/_op.py
+ser/CMakeFiles/ser_generate_messages_py: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/__init__.py
 
 
-/home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/_op.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/_op.py: /home/y/桌面/ros\ resoure/ros1/five/src/ser/srv/op.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/y/桌面/ros resoure/ros1/five/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV ser/op"
-	cd "/home/y/桌面/ros resoure/ros1/five/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/y/桌面/ros\ resoure/ros1/five/src/ser/srv/op.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ser -o /home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv
+/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/_op.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/_op.py: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/src/ser/srv/op.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV ser/op"
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/src/ser/srv/op.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ser -o /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv
 
-/home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/__init__.py: /home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/_op.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/y/桌面/ros resoure/ros1/five/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for ser"
-	cd "/home/y/桌面/ros resoure/ros1/five/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv --initpy
+/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/__init__.py: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/_op.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for ser"
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv --initpy
 
 ser_generate_messages_py: ser/CMakeFiles/ser_generate_messages_py
-ser_generate_messages_py: /home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/_op.py
-ser_generate_messages_py: /home/y/桌面/ros\ resoure/ros1/five/devel/lib/python3/dist-packages/ser/srv/__init__.py
+ser_generate_messages_py: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/_op.py
+ser_generate_messages_py: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/python3/dist-packages/ser/srv/__init__.py
 ser_generate_messages_py: ser/CMakeFiles/ser_generate_messages_py.dir/build.make
 
 .PHONY : ser_generate_messages_py
@@ -80,10 +80,10 @@ ser/CMakeFiles/ser_generate_messages_py.dir/build: ser_generate_messages_py
 .PHONY : ser/CMakeFiles/ser_generate_messages_py.dir/build
 
 ser/CMakeFiles/ser_generate_messages_py.dir/clean:
-	cd "/home/y/桌面/ros resoure/ros1/five/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_generate_messages_py.dir/cmake_clean.cmake
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : ser/CMakeFiles/ser_generate_messages_py.dir/clean
 
 ser/CMakeFiles/ser_generate_messages_py.dir/depend:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/y/桌面/ros resoure/ros1/five/src" "/home/y/桌面/ros resoure/ros1/five/src/ser" "/home/y/桌面/ros resoure/ros1/five/build" "/home/y/桌面/ros resoure/ros1/five/build/ser" "/home/y/桌面/ros resoure/ros1/five/build/ser/CMakeFiles/ser_generate_messages_py.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/CMakeFiles/ser_generate_messages_py.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : ser/CMakeFiles/ser_generate_messages_py.dir/depend
 

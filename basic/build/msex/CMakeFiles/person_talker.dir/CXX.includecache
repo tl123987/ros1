@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/y/桌面/ros resoure/ros1/five/devel/include/msex/Person.h
+/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include/msex/Person.h
 string
 -
 vector
@@ -22,11 +22,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/y/桌面/ros resoure/ros1/five/src/msex/src/b1.cpp
+/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/src/b1.cpp
 ros/ros.h
-/home/y/桌面/ros resoure/ros1/five/src/msex/src/ros/ros.h
+/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/src/ros/ros.h
 msex/Person.h
-/home/y/桌面/ros resoure/ros1/five/src/msex/src/msex/Person.h
+/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/src/msex/Person.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

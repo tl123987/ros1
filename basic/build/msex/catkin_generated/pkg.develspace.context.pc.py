@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/y/桌面/ros resoure/ros1/five/devel/include".split(';') if "/home/y/桌面/ros resoure/ros1/five/devel/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include".split(';') if "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs;message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "msex"
-PROJECT_SPACE_DIR = "/home/y/桌面/ros resoure/ros1/five/devel"
+PROJECT_SPACE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel"
 PROJECT_VERSION = "0.0.0"

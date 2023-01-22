@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/y/桌面/ros resoure/ros1/five/src"
+CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/y/桌面/ros resoure/ros1/five/build"
+CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
 
 # Utility rule file for ser_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include ser/CMakeFiles/ser_generate_messages_lisp.dir/progress.make
 
-ser/CMakeFiles/ser_generate_messages_lisp: /home/y/桌面/ros\ resoure/ros1/five/devel/share/common-lisp/ros/ser/srv/op.lisp
+ser/CMakeFiles/ser_generate_messages_lisp: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/share/common-lisp/ros/ser/srv/op.lisp
 
 
-/home/y/桌面/ros\ resoure/ros1/five/devel/share/common-lisp/ros/ser/srv/op.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/y/桌面/ros\ resoure/ros1/five/devel/share/common-lisp/ros/ser/srv/op.lisp: /home/y/桌面/ros\ resoure/ros1/five/src/ser/srv/op.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/y/桌面/ros resoure/ros1/five/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ser/op.srv"
-	cd "/home/y/桌面/ros resoure/ros1/five/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/y/桌面/ros\ resoure/ros1/five/src/ser/srv/op.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ser -o /home/y/桌面/ros\ resoure/ros1/five/devel/share/common-lisp/ros/ser/srv
+/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/share/common-lisp/ros/ser/srv/op.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/share/common-lisp/ros/ser/srv/op.lisp: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/src/ser/srv/op.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ser/op.srv"
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/src/ser/srv/op.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ser -o /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/share/common-lisp/ros/ser/srv
 
 ser_generate_messages_lisp: ser/CMakeFiles/ser_generate_messages_lisp
-ser_generate_messages_lisp: /home/y/桌面/ros\ resoure/ros1/five/devel/share/common-lisp/ros/ser/srv/op.lisp
+ser_generate_messages_lisp: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/share/common-lisp/ros/ser/srv/op.lisp
 ser_generate_messages_lisp: ser/CMakeFiles/ser_generate_messages_lisp.dir/build.make
 
 .PHONY : ser_generate_messages_lisp
@@ -73,10 +73,10 @@ ser/CMakeFiles/ser_generate_messages_lisp.dir/build: ser_generate_messages_lisp
 .PHONY : ser/CMakeFiles/ser_generate_messages_lisp.dir/build
 
 ser/CMakeFiles/ser_generate_messages_lisp.dir/clean:
-	cd "/home/y/桌面/ros resoure/ros1/five/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_generate_messages_lisp.dir/cmake_clean.cmake
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : ser/CMakeFiles/ser_generate_messages_lisp.dir/clean
 
 ser/CMakeFiles/ser_generate_messages_lisp.dir/depend:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/y/桌面/ros resoure/ros1/five/src" "/home/y/桌面/ros resoure/ros1/five/src/ser" "/home/y/桌面/ros resoure/ros1/five/build" "/home/y/桌面/ros resoure/ros1/five/build/ser" "/home/y/桌面/ros resoure/ros1/five/build/ser/CMakeFiles/ser_generate_messages_lisp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/CMakeFiles/ser_generate_messages_lisp.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : ser/CMakeFiles/ser_generate_messages_lisp.dir/depend
 

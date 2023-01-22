@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/y/桌面/ros resoure/ros1/five/src/op/src/a.cpp
+/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/op/src/a.cpp
 ros/ros.h
-/home/y/桌面/ros resoure/ros1/five/src/op/src/ros/ros.h
+/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/op/src/ros/ros.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

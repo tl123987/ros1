@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/y/桌面/ros resoure/ros1/five/src"
+CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/y/桌面/ros resoure/ros1/five/build"
+CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ my_bag/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_exporte
 .PHONY : my_bag/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 my_bag/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd "/home/y/桌面/ros resoure/ros1/five/build/my_bag" && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/my_bag" && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : my_bag/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 my_bag/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd "/home/y/桌面/ros resoure/ros1/five/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/y/桌面/ros resoure/ros1/five/src" "/home/y/桌面/ros resoure/ros1/five/src/my_bag" "/home/y/桌面/ros resoure/ros1/five/build" "/home/y/桌面/ros resoure/ros1/five/build/my_bag" "/home/y/桌面/ros resoure/ros1/five/build/my_bag/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/my_bag" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/my_bag" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/my_bag/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : my_bag/CMakeFiles/_catkin_empty_exported_target.dir/depend
 
