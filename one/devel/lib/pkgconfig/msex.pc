@@ -1,8 +1,0 @@
-prefix=/home/y/桌面/ros resoure/ros1/one/devel
-
-Name: msex
-Description: Description of msex
-Version: 0.0.0
-Cflags: -I/home/y/桌面/ros resoure/ros1/one/devel/include
-Libs: -L${prefix}/lib 
-Requires: roscpp std_msgs message_runtime

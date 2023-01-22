@@ -1,8 +1,0 @@
-prefix=/home/y/桌面/ros resoure/ros1/one/install
-
-Name: ser
-Description: Description of ser
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

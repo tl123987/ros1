@@ -1,2 +1,0 @@
-param
--DCATKIN_DEVEL_PREFIX=/home/y/桌面/ros resoure/ros1/tow/devel -DCMAKE_INSTALL_PREFIX=/home/y/桌面/ros resoure/ros1/tow/install -G Unix Makefiles
