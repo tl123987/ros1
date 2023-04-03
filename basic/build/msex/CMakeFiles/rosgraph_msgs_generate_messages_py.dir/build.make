@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgraph_msgs_gene
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex" && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex" && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/msex" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

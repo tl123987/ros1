@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build"
 
 # Utility rule file for actionlib_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build: actionlib_m
 .PHONY : dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 
 dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans" && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans" && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 
 dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/six/src" "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : dy_trans/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 

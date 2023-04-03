@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include/ser/op.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include/ser/op.h
 ros/service_traits.h
 -
 ser/opRequest.h
@@ -14,7 +14,7 @@ ser/opRequest.h
 ser/opResponse.h
 -
 
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include/ser/opRequest.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include/ser/opRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include/ser/opResponse.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include/ser/opResponse.h
 string
 -
 vector
@@ -46,11 +46,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/src/a1.cpp
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser/src/a1.cpp
 ros/ros.h
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/src/ros/ros.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser/src/ros/ros.h
 ser/op.h
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/src/ser/op.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser/src/ser/op.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

@@ -1,4 +1,4 @@
-prefix=/media/y/Elements/ubuntu/ros resoure/ros1/six/devel
+prefix=/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel
 
 Name: dy_trans
 Description: Description of dy_trans

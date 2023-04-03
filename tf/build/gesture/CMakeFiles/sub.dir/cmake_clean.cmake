@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/gesture/sub"
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/gesture/sub.pdb"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/gesture/sub"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/gesture/sub.pdb"
   "CMakeFiles/sub.dir/src/sub.cpp.o"
 )
 

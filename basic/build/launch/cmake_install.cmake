@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/basic/src/launch
+# Install script for directory: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/launch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/basic/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/launch/catkin_generated/installspace/launch.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/launch/catkin_generated/installspace/launch.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch/cmake" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/launch/catkin_generated/installspace/launchConfig.cmake"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/launch/catkin_generated/installspace/launchConfig-version.cmake"
+    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/launch/catkin_generated/installspace/launchConfig.cmake"
+    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/launch/catkin_generated/installspace/launchConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/launch/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/launch/package.xml")
 endif()
 

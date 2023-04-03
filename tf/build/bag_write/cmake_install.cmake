@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write
+# Install script for directory: /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/six/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/bag_write/catkin_generated/installspace/bag_write.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/bag_write/catkin_generated/installspace/bag_write.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bag_write/cmake" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/bag_write/catkin_generated/installspace/bag_writeConfig.cmake"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/bag_write/catkin_generated/installspace/bag_writeConfig-version.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/bag_write/catkin_generated/installspace/bag_writeConfig.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/bag_write/catkin_generated/installspace/bag_writeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bag_write" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bag_write" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write/package.xml")
 endif()
 

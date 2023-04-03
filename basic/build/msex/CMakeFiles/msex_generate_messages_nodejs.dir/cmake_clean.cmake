@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/gennodejs/ros/msex/msg/Person.js"
+  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/gennodejs/ros/msex/msg/Person.js"
   "CMakeFiles/msex_generate_messages_nodejs"
 )
 

@@ -67,14 +67,14 @@ set(msex_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(msex_SOURCE_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex)
-  set(msex_DEVEL_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/basic/devel)
+  set(msex_SOURCE_PREFIX /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/msex)
+  set(msex_DEVEL_PREFIX /media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel)
   set(msex_INSTALL_PREFIX "")
   set(msex_PREFIX ${msex_DEVEL_PREFIX})
 else()
   set(msex_SOURCE_PREFIX "")
   set(msex_DEVEL_PREFIX "")
-  set(msex_INSTALL_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/basic/install)
+  set(msex_INSTALL_PREFIX /media/q/Elenments/ubuntu/ros resoure/ros1/basic/install)
   set(msex_PREFIX ${msex_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(msex_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include " STREQUAL " ")
+if(NOT "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include " STREQUAL " ")
   set(msex_INCLUDE_DIRS "")
-  set(_include_dirs "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include")
+  set(_include_dirs "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include " STREQUAL
         message(FATAL_ERROR "Project 'msex' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'msex' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'msex' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/msex/${idir}'.  ${_report}")
     endif()
     _list_append_unique(msex_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

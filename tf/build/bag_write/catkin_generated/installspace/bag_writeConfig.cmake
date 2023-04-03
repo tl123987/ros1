@@ -67,14 +67,14 @@ set(bag_write_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(bag_write_SOURCE_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write)
-  set(bag_write_DEVEL_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/six/devel)
+  set(bag_write_SOURCE_PREFIX /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write)
+  set(bag_write_DEVEL_PREFIX /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel)
   set(bag_write_INSTALL_PREFIX "")
   set(bag_write_PREFIX ${bag_write_DEVEL_PREFIX})
 else()
   set(bag_write_SOURCE_PREFIX "")
   set(bag_write_DEVEL_PREFIX "")
-  set(bag_write_INSTALL_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/six/install)
+  set(bag_write_INSTALL_PREFIX /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install)
   set(bag_write_PREFIX ${bag_write_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /media/y/Elements/ubuntu/ros resoure/ros1/six/install/lib;/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/lib;/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

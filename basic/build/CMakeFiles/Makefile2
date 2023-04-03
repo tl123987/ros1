@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -394,14 +394,14 @@ top/clean: top/CMakeFiles/Hello_pub.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -421,14 +421,14 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -448,14 +448,14 @@ CMakeFiles/run_tests.dir/clean:
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -475,14 +475,14 @@ CMakeFiles/clean_test_results.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -502,14 +502,14 @@ CMakeFiles/tests.dir/clean:
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -530,14 +530,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=11,12 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=11,12 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -557,14 +557,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=9,10 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=9,10 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -584,14 +584,14 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=15,16 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=15,16 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -611,14 +611,14 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=13,14 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=13,14 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -638,14 +638,14 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 my_bag/CMakeFiles/_catkin_empty_exported_target.dir/all:
 	$(MAKE) -f my_bag/CMakeFiles/_catkin_empty_exported_target.dir/build.make my_bag/CMakeFiles/_catkin_empty_exported_target.dir/depend
 	$(MAKE) -f my_bag/CMakeFiles/_catkin_empty_exported_target.dir/build.make my_bag/CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target _catkin_empty_exported_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target _catkin_empty_exported_target"
 .PHONY : my_bag/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
 my_bag/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 my_bag/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : my_bag/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -665,14 +665,14 @@ my_bag/CMakeFiles/_catkin_empty_exported_target.dir/clean:
 msex/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_lisp"
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -693,14 +693,14 @@ msex/CMakeFiles/msex_generate_messages_eus.dir/all: msex/CMakeFiles/std_msgs_gen
 msex/CMakeFiles/msex_generate_messages_eus.dir/all: msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_eus.dir/build.make msex/CMakeFiles/msex_generate_messages_eus.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_eus.dir/build.make msex/CMakeFiles/msex_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=20,21 "Built target msex_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=20,21 "Built target msex_generate_messages_eus"
 .PHONY : msex/CMakeFiles/msex_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -720,14 +720,14 @@ msex/CMakeFiles/msex_generate_messages_eus.dir/clean:
 msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -747,14 +747,14 @@ msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -774,14 +774,14 @@ msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -801,14 +801,14 @@ msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -828,14 +828,14 @@ msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_nodejs"
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -855,14 +855,14 @@ msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 msex/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -882,14 +882,14 @@ msex/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/all:
 	$(MAKE) -f msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build.make msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/depend
 	$(MAKE) -f msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build.make msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target _msex_generate_messages_check_deps_Person"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target _msex_generate_messages_check_deps_Person"
 .PHONY : msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/rule
 
 # Convenience name for target.
@@ -909,14 +909,14 @@ msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/clean:
 msex/CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_py.dir/build.make msex/CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_py.dir/build.make msex/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_py"
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -936,14 +936,14 @@ msex/CMakeFiles/roscpp_generate_messages_py.dir/clean:
 msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -963,14 +963,14 @@ msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 msex/CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_eus.dir/build.make msex/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_eus.dir/build.make msex/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_eus"
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -990,14 +990,14 @@ msex/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 msex/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_cpp"
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1017,14 +1017,14 @@ msex/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
 msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1044,14 +1044,14 @@ msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1071,14 +1071,14 @@ msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
 msex/CMakeFiles/person_talker.dir/all: msex/CMakeFiles/msex_generate_messages_cpp.dir/all
 	$(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/depend
 	$(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=32,33 "Built target person_talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=32,33 "Built target person_talker"
 .PHONY : msex/CMakeFiles/person_talker.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/person_talker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/person_talker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/person_talker.dir/rule
 
 # Convenience name for target.
@@ -1099,14 +1099,14 @@ msex/CMakeFiles/msex_generate_messages_cpp.dir/all: msex/CMakeFiles/std_msgs_gen
 msex/CMakeFiles/msex_generate_messages_cpp.dir/all: msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_cpp.dir/build.make msex/CMakeFiles/msex_generate_messages_cpp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_cpp.dir/build.make msex/CMakeFiles/msex_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=19 "Built target msex_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=19 "Built target msex_generate_messages_cpp"
 .PHONY : msex/CMakeFiles/msex_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1130,14 +1130,14 @@ msex/CMakeFiles/msex_generate_messages.dir/all: msex/CMakeFiles/msex_generate_me
 msex/CMakeFiles/msex_generate_messages.dir/all: msex/CMakeFiles/msex_generate_messages_py.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages.dir/build.make msex/CMakeFiles/msex_generate_messages.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages.dir/build.make msex/CMakeFiles/msex_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_generate_messages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_generate_messages"
 .PHONY : msex/CMakeFiles/msex_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -1157,14 +1157,14 @@ msex/CMakeFiles/msex_generate_messages.dir/clean:
 msex/CMakeFiles/msex_gencpp.dir/all: msex/CMakeFiles/msex_generate_messages_cpp.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_gencpp.dir/build.make msex/CMakeFiles/msex_gencpp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_gencpp.dir/build.make msex/CMakeFiles/msex_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_gencpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_gencpp"
 .PHONY : msex/CMakeFiles/msex_gencpp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_gencpp.dir/rule
 
 # Convenience name for target.
@@ -1184,14 +1184,14 @@ msex/CMakeFiles/msex_gencpp.dir/clean:
 msex/CMakeFiles/msex_geneus.dir/all: msex/CMakeFiles/msex_generate_messages_eus.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_geneus.dir/build.make msex/CMakeFiles/msex_geneus.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_geneus.dir/build.make msex/CMakeFiles/msex_geneus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_geneus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_geneus"
 .PHONY : msex/CMakeFiles/msex_geneus.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_geneus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_geneus.dir/rule
 
 # Convenience name for target.
@@ -1211,14 +1211,14 @@ msex/CMakeFiles/msex_geneus.dir/clean:
 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1238,14 +1238,14 @@ msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 msex/CMakeFiles/msex_gennodejs.dir/all: msex/CMakeFiles/msex_generate_messages_nodejs.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_gennodejs.dir/build.make msex/CMakeFiles/msex_gennodejs.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_gennodejs.dir/build.make msex/CMakeFiles/msex_gennodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_gennodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_gennodejs"
 .PHONY : msex/CMakeFiles/msex_gennodejs.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_gennodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -1265,14 +1265,14 @@ msex/CMakeFiles/msex_gennodejs.dir/clean:
 msex/CMakeFiles/person_listener.dir/all: msex/CMakeFiles/msex_generate_messages_cpp.dir/all
 	$(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/depend
 	$(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=30,31 "Built target person_listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=30,31 "Built target person_listener"
 .PHONY : msex/CMakeFiles/person_listener.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/person_listener.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/person_listener.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/person_listener.dir/rule
 
 # Convenience name for target.
@@ -1293,14 +1293,14 @@ msex/CMakeFiles/msex_generate_messages_lisp.dir/all: msex/CMakeFiles/_msex_gener
 msex/CMakeFiles/msex_generate_messages_lisp.dir/all: msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_lisp.dir/build.make msex/CMakeFiles/msex_generate_messages_lisp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_lisp.dir/build.make msex/CMakeFiles/msex_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=22 "Built target msex_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=22 "Built target msex_generate_messages_lisp"
 .PHONY : msex/CMakeFiles/msex_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1321,14 +1321,14 @@ msex/CMakeFiles/msex_generate_messages_nodejs.dir/all: msex/CMakeFiles/_msex_gen
 msex/CMakeFiles/msex_generate_messages_nodejs.dir/all: msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_nodejs.dir/build.make msex/CMakeFiles/msex_generate_messages_nodejs.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_nodejs.dir/build.make msex/CMakeFiles/msex_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=23 "Built target msex_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=23 "Built target msex_generate_messages_nodejs"
 .PHONY : msex/CMakeFiles/msex_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1348,14 +1348,14 @@ msex/CMakeFiles/msex_generate_messages_nodejs.dir/clean:
 msex/CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1376,14 +1376,14 @@ msex/CMakeFiles/msex_generate_messages_py.dir/all: msex/CMakeFiles/_msex_generat
 msex/CMakeFiles/msex_generate_messages_py.dir/all: msex/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_py.dir/build.make msex/CMakeFiles/msex_generate_messages_py.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_generate_messages_py.dir/build.make msex/CMakeFiles/msex_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=24,25 "Built target msex_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=24,25 "Built target msex_generate_messages_py"
 .PHONY : msex/CMakeFiles/msex_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1403,14 +1403,14 @@ msex/CMakeFiles/msex_generate_messages_py.dir/clean:
 msex/CMakeFiles/msex_genlisp.dir/all: msex/CMakeFiles/msex_generate_messages_lisp.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_genlisp.dir/build.make msex/CMakeFiles/msex_genlisp.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_genlisp.dir/build.make msex/CMakeFiles/msex_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_genlisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_genlisp"
 .PHONY : msex/CMakeFiles/msex_genlisp.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_genlisp.dir/rule
 
 # Convenience name for target.
@@ -1430,14 +1430,14 @@ msex/CMakeFiles/msex_genlisp.dir/clean:
 msex/CMakeFiles/msex_genpy.dir/all: msex/CMakeFiles/msex_generate_messages_py.dir/all
 	$(MAKE) -f msex/CMakeFiles/msex_genpy.dir/build.make msex/CMakeFiles/msex_genpy.dir/depend
 	$(MAKE) -f msex/CMakeFiles/msex_genpy.dir/build.make msex/CMakeFiles/msex_genpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_genpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target msex_genpy"
 .PHONY : msex/CMakeFiles/msex_genpy.dir/all
 
 # Build rule for subdir invocation for target.
 msex/CMakeFiles/msex_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : msex/CMakeFiles/msex_genpy.dir/rule
 
 # Convenience name for target.
@@ -1457,14 +1457,14 @@ msex/CMakeFiles/msex_genpy.dir/clean:
 op/CMakeFiles/ha.dir/all:
 	$(MAKE) -f op/CMakeFiles/ha.dir/build.make op/CMakeFiles/ha.dir/depend
 	$(MAKE) -f op/CMakeFiles/ha.dir/build.make op/CMakeFiles/ha.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=17,18 "Built target ha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=17,18 "Built target ha"
 .PHONY : op/CMakeFiles/ha.dir/all
 
 # Build rule for subdir invocation for target.
 op/CMakeFiles/ha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 op/CMakeFiles/ha.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : op/CMakeFiles/ha.dir/rule
 
 # Convenience name for target.
@@ -1484,14 +1484,14 @@ op/CMakeFiles/ha.dir/clean:
 param/CMakeFiles/one1.dir/all:
 	$(MAKE) -f param/CMakeFiles/one1.dir/build.make param/CMakeFiles/one1.dir/depend
 	$(MAKE) -f param/CMakeFiles/one1.dir/build.make param/CMakeFiles/one1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=28,29 "Built target one1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=28,29 "Built target one1"
 .PHONY : param/CMakeFiles/one1.dir/all
 
 # Build rule for subdir invocation for target.
 param/CMakeFiles/one1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 param/CMakeFiles/one1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : param/CMakeFiles/one1.dir/rule
 
 # Convenience name for target.
@@ -1511,14 +1511,14 @@ param/CMakeFiles/one1.dir/clean:
 param/CMakeFiles/one.dir/all:
 	$(MAKE) -f param/CMakeFiles/one.dir/build.make param/CMakeFiles/one.dir/depend
 	$(MAKE) -f param/CMakeFiles/one.dir/build.make param/CMakeFiles/one.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=26,27 "Built target one"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=26,27 "Built target one"
 .PHONY : param/CMakeFiles/one.dir/all
 
 # Build rule for subdir invocation for target.
 param/CMakeFiles/one.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 param/CMakeFiles/one.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : param/CMakeFiles/one.dir/rule
 
 # Convenience name for target.
@@ -1538,14 +1538,14 @@ param/CMakeFiles/one.dir/clean:
 ser/CMakeFiles/AddInts_Client.dir/all: ser/CMakeFiles/ser_gencpp.dir/all
 	$(MAKE) -f ser/CMakeFiles/AddInts_Client.dir/build.make ser/CMakeFiles/AddInts_Client.dir/depend
 	$(MAKE) -f ser/CMakeFiles/AddInts_Client.dir/build.make ser/CMakeFiles/AddInts_Client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=1,2 "Built target AddInts_Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=1,2 "Built target AddInts_Client"
 .PHONY : ser/CMakeFiles/AddInts_Client.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/AddInts_Client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/AddInts_Client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/AddInts_Client.dir/rule
 
 # Convenience name for target.
@@ -1569,14 +1569,14 @@ ser/CMakeFiles/ser_generate_messages.dir/all: ser/CMakeFiles/ser_generate_messag
 ser/CMakeFiles/ser_generate_messages.dir/all: ser/CMakeFiles/ser_generate_messages_py.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages.dir/build.make ser/CMakeFiles/ser_generate_messages.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages.dir/build.make ser/CMakeFiles/ser_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_generate_messages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_generate_messages"
 .PHONY : ser/CMakeFiles/ser_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -1596,14 +1596,14 @@ ser/CMakeFiles/ser_generate_messages.dir/clean:
 ser/CMakeFiles/ser_gennodejs.dir/all: ser/CMakeFiles/ser_generate_messages_nodejs.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_gennodejs.dir/build.make ser/CMakeFiles/ser_gennodejs.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_gennodejs.dir/build.make ser/CMakeFiles/ser_gennodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_gennodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_gennodejs"
 .PHONY : ser/CMakeFiles/ser_gennodejs.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_gennodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -1623,14 +1623,14 @@ ser/CMakeFiles/ser_gennodejs.dir/clean:
 ser/CMakeFiles/ser_gencpp.dir/all: ser/CMakeFiles/ser_generate_messages_cpp.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_gencpp.dir/build.make ser/CMakeFiles/ser_gencpp.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_gencpp.dir/build.make ser/CMakeFiles/ser_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_gencpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_gencpp"
 .PHONY : ser/CMakeFiles/ser_gencpp.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_gencpp.dir/rule
 
 # Convenience name for target.
@@ -1651,14 +1651,14 @@ ser/CMakeFiles/ser_generate_messages_cpp.dir/all: msex/CMakeFiles/std_msgs_gener
 ser/CMakeFiles/ser_generate_messages_cpp.dir/all: ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_cpp.dir/build.make ser/CMakeFiles/ser_generate_messages_cpp.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_cpp.dir/build.make ser/CMakeFiles/ser_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=34 "Built target ser_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=34 "Built target ser_generate_messages_cpp"
 .PHONY : ser/CMakeFiles/ser_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1679,14 +1679,14 @@ ser/CMakeFiles/ser_generate_messages_lisp.dir/all: msex/CMakeFiles/std_msgs_gene
 ser/CMakeFiles/ser_generate_messages_lisp.dir/all: ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_lisp.dir/build.make ser/CMakeFiles/ser_generate_messages_lisp.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_lisp.dir/build.make ser/CMakeFiles/ser_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=37 "Built target ser_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=37 "Built target ser_generate_messages_lisp"
 .PHONY : ser/CMakeFiles/ser_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1706,14 +1706,14 @@ ser/CMakeFiles/ser_generate_messages_lisp.dir/clean:
 ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all:
 	$(MAKE) -f ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/build.make ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/depend
 	$(MAKE) -f ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/build.make ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target _ser_generate_messages_check_deps_op"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target _ser_generate_messages_check_deps_op"
 .PHONY : ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/rule
 
 # Convenience name for target.
@@ -1733,14 +1733,14 @@ ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/clean:
 ser/CMakeFiles/ser_genlisp.dir/all: ser/CMakeFiles/ser_generate_messages_lisp.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_genlisp.dir/build.make ser/CMakeFiles/ser_genlisp.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_genlisp.dir/build.make ser/CMakeFiles/ser_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_genlisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_genlisp"
 .PHONY : ser/CMakeFiles/ser_genlisp.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_genlisp.dir/rule
 
 # Convenience name for target.
@@ -1761,14 +1761,14 @@ ser/CMakeFiles/ser_generate_messages_eus.dir/all: msex/CMakeFiles/std_msgs_gener
 ser/CMakeFiles/ser_generate_messages_eus.dir/all: ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_eus.dir/build.make ser/CMakeFiles/ser_generate_messages_eus.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_eus.dir/build.make ser/CMakeFiles/ser_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=35,36 "Built target ser_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=35,36 "Built target ser_generate_messages_eus"
 .PHONY : ser/CMakeFiles/ser_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1788,14 +1788,14 @@ ser/CMakeFiles/ser_generate_messages_eus.dir/clean:
 ser/CMakeFiles/ser_geneus.dir/all: ser/CMakeFiles/ser_generate_messages_eus.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_geneus.dir/build.make ser/CMakeFiles/ser_geneus.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_geneus.dir/build.make ser/CMakeFiles/ser_geneus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_geneus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_geneus"
 .PHONY : ser/CMakeFiles/ser_geneus.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_geneus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_geneus.dir/rule
 
 # Convenience name for target.
@@ -1815,14 +1815,14 @@ ser/CMakeFiles/ser_geneus.dir/clean:
 ser/CMakeFiles/AddInts_Server.dir/all: ser/CMakeFiles/ser_gencpp.dir/all
 	$(MAKE) -f ser/CMakeFiles/AddInts_Server.dir/build.make ser/CMakeFiles/AddInts_Server.dir/depend
 	$(MAKE) -f ser/CMakeFiles/AddInts_Server.dir/build.make ser/CMakeFiles/AddInts_Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=3,4 "Built target AddInts_Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=3,4 "Built target AddInts_Server"
 .PHONY : ser/CMakeFiles/AddInts_Server.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/AddInts_Server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/AddInts_Server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/AddInts_Server.dir/rule
 
 # Convenience name for target.
@@ -1843,14 +1843,14 @@ ser/CMakeFiles/ser_generate_messages_nodejs.dir/all: msex/CMakeFiles/std_msgs_ge
 ser/CMakeFiles/ser_generate_messages_nodejs.dir/all: ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_nodejs.dir/build.make ser/CMakeFiles/ser_generate_messages_nodejs.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_nodejs.dir/build.make ser/CMakeFiles/ser_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=38 "Built target ser_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=38 "Built target ser_generate_messages_nodejs"
 .PHONY : ser/CMakeFiles/ser_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1871,14 +1871,14 @@ ser/CMakeFiles/ser_generate_messages_py.dir/all: msex/CMakeFiles/std_msgs_genera
 ser/CMakeFiles/ser_generate_messages_py.dir/all: ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_py.dir/build.make ser/CMakeFiles/ser_generate_messages_py.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_generate_messages_py.dir/build.make ser/CMakeFiles/ser_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=39,40 "Built target ser_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=39,40 "Built target ser_generate_messages_py"
 .PHONY : ser/CMakeFiles/ser_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1898,14 +1898,14 @@ ser/CMakeFiles/ser_generate_messages_py.dir/clean:
 ser/CMakeFiles/ser_genpy.dir/all: ser/CMakeFiles/ser_generate_messages_py.dir/all
 	$(MAKE) -f ser/CMakeFiles/ser_genpy.dir/build.make ser/CMakeFiles/ser_genpy.dir/depend
 	$(MAKE) -f ser/CMakeFiles/ser_genpy.dir/build.make ser/CMakeFiles/ser_genpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_genpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target ser_genpy"
 .PHONY : ser/CMakeFiles/ser_genpy.dir/all
 
 # Build rule for subdir invocation for target.
 ser/CMakeFiles/ser_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 ser/CMakeFiles/ser_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : ser/CMakeFiles/ser_genpy.dir/rule
 
 # Convenience name for target.
@@ -1925,14 +1925,14 @@ ser/CMakeFiles/ser_genpy.dir/clean:
 top/CMakeFiles/Hello_sub.dir/all:
 	$(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/depend
 	$(MAKE) -f top/CMakeFiles/Hello_sub.dir/build.make top/CMakeFiles/Hello_sub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=7,8 "Built target Hello_sub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=7,8 "Built target Hello_sub"
 .PHONY : top/CMakeFiles/Hello_sub.dir/all
 
 # Build rule for subdir invocation for target.
 top/CMakeFiles/Hello_sub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 top/CMakeFiles/Hello_sub.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : top/CMakeFiles/Hello_sub.dir/rule
 
 # Convenience name for target.
@@ -1952,14 +1952,14 @@ top/CMakeFiles/Hello_sub.dir/clean:
 top/CMakeFiles/Hello_pub.dir/all:
 	$(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/depend
 	$(MAKE) -f top/CMakeFiles/Hello_pub.dir/build.make top/CMakeFiles/Hello_pub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=5,6 "Built target Hello_pub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=5,6 "Built target Hello_pub"
 .PHONY : top/CMakeFiles/Hello_pub.dir/all
 
 # Build rule for subdir invocation for target.
 top/CMakeFiles/Hello_pub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 top/CMakeFiles/Hello_pub.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : top/CMakeFiles/Hello_pub.dir/rule
 
 # Convenience name for target.
@@ -1979,14 +1979,14 @@ top/CMakeFiles/Hello_pub.dir/clean:
 launch/CMakeFiles/std_srvs_generate_messages_py.dir/all:
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_py.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_py.dir/depend
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_py.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_py"
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/std_srvs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2006,14 +2006,14 @@ launch/CMakeFiles/std_srvs_generate_messages_py.dir/clean:
 launch/CMakeFiles/turtlesim_generate_messages_eus.dir/all:
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_eus.dir/depend
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_eus"
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/turtlesim_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/turtlesim_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2033,14 +2033,14 @@ launch/CMakeFiles/turtlesim_generate_messages_eus.dir/clean:
 launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/all:
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/depend
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_lisp"
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2060,14 +2060,14 @@ launch/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean:
 launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2087,14 +2087,14 @@ launch/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2114,14 +2114,14 @@ launch/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all:
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_nodejs"
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2141,14 +2141,14 @@ launch/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean:
 launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_nodejs"
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2168,14 +2168,14 @@ launch/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
 launch/CMakeFiles/turtlesim_generate_messages_py.dir/all:
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_py.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_py.dir/depend
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_py.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_py"
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/turtlesim_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/turtlesim_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2195,14 +2195,14 @@ launch/CMakeFiles/turtlesim_generate_messages_py.dir/clean:
 launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/all:
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/depend
 	$(MAKE) -f launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target turtlesim_generate_messages_cpp"
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2222,14 +2222,14 @@ launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean:
 launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2249,14 +2249,14 @@ launch/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2276,14 +2276,14 @@ launch/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
 launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2303,14 +2303,14 @@ launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_cpp"
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2330,14 +2330,14 @@ launch/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
 launch/CMakeFiles/std_srvs_generate_messages_eus.dir/all:
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_eus"
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/std_srvs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/std_srvs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2357,14 +2357,14 @@ launch/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
 launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
 	$(MAKE) -f launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_lisp"
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2413,14 +2413,14 @@ test/CMakeFiles/turt_back.dir/all: launch/CMakeFiles/std_srvs_generate_messages_
 test/CMakeFiles/turt_back.dir/all: launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 	$(MAKE) -f test/CMakeFiles/turt_back.dir/build.make test/CMakeFiles/turt_back.dir/depend
 	$(MAKE) -f test/CMakeFiles/turt_back.dir/build.make test/CMakeFiles/turt_back.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=43,44 "Built target turt_back"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=43,44 "Built target turt_back"
 .PHONY : test/CMakeFiles/turt_back.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/turt_back.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/turt_back.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/turt_back.dir/rule
 
 # Convenience name for target.
@@ -2469,14 +2469,14 @@ test/CMakeFiles/turt_service.dir/all: launch/CMakeFiles/std_srvs_generate_messag
 test/CMakeFiles/turt_service.dir/all: launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 	$(MAKE) -f test/CMakeFiles/turt_service.dir/build.make test/CMakeFiles/turt_service.dir/depend
 	$(MAKE) -f test/CMakeFiles/turt_service.dir/build.make test/CMakeFiles/turt_service.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=47,48 "Built target turt_service"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=47,48 "Built target turt_service"
 .PHONY : test/CMakeFiles/turt_service.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/turt_service.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/turt_service.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/turt_service.dir/rule
 
 # Convenience name for target.
@@ -2525,14 +2525,14 @@ test/CMakeFiles/turt_pose.dir/all: launch/CMakeFiles/std_srvs_generate_messages_
 test/CMakeFiles/turt_pose.dir/all: launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 	$(MAKE) -f test/CMakeFiles/turt_pose.dir/build.make test/CMakeFiles/turt_pose.dir/depend
 	$(MAKE) -f test/CMakeFiles/turt_pose.dir/build.make test/CMakeFiles/turt_pose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=45,46 "Built target turt_pose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=45,46 "Built target turt_pose"
 .PHONY : test/CMakeFiles/turt_pose.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/turt_pose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/turt_pose.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/turt_pose.dir/rule
 
 # Convenience name for target.
@@ -2581,14 +2581,14 @@ test/CMakeFiles/turt.dir/all: launch/CMakeFiles/std_srvs_generate_messages_eus.d
 test/CMakeFiles/turt.dir/all: launch/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 	$(MAKE) -f test/CMakeFiles/turt.dir/build.make test/CMakeFiles/turt.dir/depend
 	$(MAKE) -f test/CMakeFiles/turt.dir/build.make test/CMakeFiles/turt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=41,42 "Built target turt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=41,42 "Built target turt"
 .PHONY : test/CMakeFiles/turt.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/turt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/turt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/turt.dir/rule
 
 # Convenience name for target.

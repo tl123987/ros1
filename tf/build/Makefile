@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/CMakeFiles" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

@@ -1,0 +1,6 @@
+<launch>  
+    <!--plugin select-->  
+    <!--<param name="polygon_plugin" value="polygon_plugin::Square"/> -->  
+    <param name="plug" value="polygon_plugin::Triangle"/>  
+    <node name="plug" pkg="plug" type="polygon" output="screen"/>  
+</launch>

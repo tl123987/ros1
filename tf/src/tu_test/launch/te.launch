@@ -7,6 +7,7 @@
 <!--编写一只乌龟跟随另一只乌龟运动
     节点只编写一个 发布两次
     节点启动传参数
+    type 节点名称
 -->
 <node pkg="tu_test" type="pub_tu" name="pub1" args="turtle1" output="screen"/>
 <node pkg="tu_test" type="pub_tu" name="pub2" args="turtle2" output="screen"/>

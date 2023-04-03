@@ -7,3 +7,7 @@
 # new environment variables
 
 # modified environment variables
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'
+export PWD='/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build'
+export ROS_PACKAGE_PATH='/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src:/opt/ros/noetic/share'

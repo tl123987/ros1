@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans
+# Install script for directory: /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/six/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans/catkin_generated/installspace/dy_trans.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans/catkin_generated/installspace/dy_trans.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dy_trans/cmake" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans/catkin_generated/installspace/dy_transConfig.cmake"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans/catkin_generated/installspace/dy_transConfig-version.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans/catkin_generated/installspace/dy_transConfig.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans/catkin_generated/installspace/dy_transConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dy_trans" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dy_trans" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/package.xml")
 endif()
 

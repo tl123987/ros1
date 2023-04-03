@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/test/turt_back"
-  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/test/turt_back.pdb"
+  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/test/turt_back"
+  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/test/turt_back.pdb"
   "CMakeFiles/turt_back.dir/src/four.cpp.o"
 )
 

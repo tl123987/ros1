@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp
+Change Dir: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e37a8/fast && /usr/bin/make -f CMakeFiles/cmTC_e37a8.dir/build.make CMakeFiles/cmTC_e37a8.dir/build
-make[1]: 进入目录“/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_e37a8.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e37a8.dir/src.c.o   -c "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_e37a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e37a8.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_e37a8.dir/src.c.o  -o cmTC_e37a8 
-/usr/bin/ld: CMakeFiles/cmTC_e37a8.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_947ba/fast && /usr/bin/make -f CMakeFiles/cmTC_947ba.dir/build.make CMakeFiles/cmTC_947ba.dir/build
+make[1]: 进入目录“/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_947ba.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_947ba.dir/src.c.o   -c "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_947ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_947ba.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_947ba.dir/src.c.o  -o cmTC_947ba 
+/usr/bin/ld: CMakeFiles/cmTC_947ba.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e37a8.dir/build.make:87：cmTC_e37a8] 错误 1
-make[1]: 离开目录“/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_e37a8/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_947ba.dir/build.make:87：cmTC_947ba] 错误 1
+make[1]: 离开目录“/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_947ba/fast] 错误 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp
+Change Dir: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1e08e/fast && /usr/bin/make -f CMakeFiles/cmTC_1e08e.dir/build.make CMakeFiles/cmTC_1e08e.dir/build
-make[1]: 进入目录“/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_1e08e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1e08e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1e08e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e08e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1e08e.dir/CheckFunctionExists.c.o  -o cmTC_1e08e  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_8d7ff/fast && /usr/bin/make -f CMakeFiles/cmTC_8d7ff.dir/build.make CMakeFiles/cmTC_8d7ff.dir/build
+make[1]: 进入目录“/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8d7ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8d7ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8d7ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d7ff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8d7ff.dir/CheckFunctionExists.c.o  -o cmTC_8d7ff  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_1e08e.dir/build.make:87：cmTC_1e08e] 错误 1
-make[1]: 离开目录“/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_1e08e/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_8d7ff.dir/build.make:87：cmTC_8d7ff] 错误 1
+make[1]: 离开目录“/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_8d7ff/fast] 错误 2
 
 
 

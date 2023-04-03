@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex/CMakeFiles/progress.marks"
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/CMakeFiles/progress.marks"
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/clean
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/preinstall
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/preinstall
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 msex/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ roscpp_generate_messages_lisp: msex/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_generate_messages_eus.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_eus.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_eus.dir/rule
 .PHONY : msex/CMakeFiles/msex_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ msex_generate_messages_eus: msex/CMakeFiles/msex_generate_messages_eus.dir/rule
 
 # fast build rule for target.
 msex_generate_messages_eus/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_eus.dir/build.make msex/CMakeFiles/msex_generate_messages_eus.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_eus.dir/build.make msex/CMakeFiles/msex_generate_messages_eus.dir/build
 .PHONY : msex_generate_messages_eus/fast
 
 # Convenience name for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ rosgraph_msgs_generate_messages_lisp: msex/CMakeFiles/rosgraph_msgs_generate_mes
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ rosgraph_msgs_generate_messages_eus: msex/CMakeFiles/rosgraph_msgs_generate_mess
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ std_msgs_generate_messages_cpp: msex/CMakeFiles/std_msgs_generate_messages_cpp.d
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ rosgraph_msgs_generate_messages_cpp: msex/CMakeFiles/rosgraph_msgs_generate_mess
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ roscpp_generate_messages_nodejs: msex/CMakeFiles/roscpp_generate_messages_nodejs
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make msex/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 msex/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ std_msgs_generate_messages_eus: msex/CMakeFiles/std_msgs_generate_messages_eus.d
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/rule
 .PHONY : msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ _msex_generate_messages_check_deps_Person: msex/CMakeFiles/_msex_generate_messag
 
 # fast build rule for target.
 _msex_generate_messages_check_deps_Person/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build.make msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build.make msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build
 .PHONY : _msex_generate_messages_check_deps_Person/fast
 
 # Convenience name for target.
 msex/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ roscpp_generate_messages_py: msex/CMakeFiles/roscpp_generate_messages_py.dir/rul
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_py.dir/build.make msex/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_py.dir/build.make msex/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ std_msgs_generate_messages_lisp: msex/CMakeFiles/std_msgs_generate_messages_lisp
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ roscpp_generate_messages_eus: msex/CMakeFiles/roscpp_generate_messages_eus.dir/r
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_eus.dir/build.make msex/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_eus.dir/build.make msex/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 msex/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : msex/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ roscpp_generate_messages_cpp: msex/CMakeFiles/roscpp_generate_messages_cpp.dir/r
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make msex/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ std_msgs_generate_messages_nodejs: msex/CMakeFiles/std_msgs_generate_messages_no
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ rosgraph_msgs_generate_messages_nodejs: msex/CMakeFiles/rosgraph_msgs_generate_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 msex/CMakeFiles/person_talker.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/person_talker.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/person_talker.dir/rule
 .PHONY : msex/CMakeFiles/person_talker.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ person_talker: msex/CMakeFiles/person_talker.dir/rule
 
 # fast build rule for target.
 person_talker/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/build
 .PHONY : person_talker/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_generate_messages_cpp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_cpp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_cpp.dir/rule
 .PHONY : msex/CMakeFiles/msex_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ msex_generate_messages_cpp: msex/CMakeFiles/msex_generate_messages_cpp.dir/rule
 
 # fast build rule for target.
 msex_generate_messages_cpp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_cpp.dir/build.make msex/CMakeFiles/msex_generate_messages_cpp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_cpp.dir/build.make msex/CMakeFiles/msex_generate_messages_cpp.dir/build
 .PHONY : msex_generate_messages_cpp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_generate_messages.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages.dir/rule
 .PHONY : msex/CMakeFiles/msex_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ msex_generate_messages: msex/CMakeFiles/msex_generate_messages.dir/rule
 
 # fast build rule for target.
 msex_generate_messages/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages.dir/build.make msex/CMakeFiles/msex_generate_messages.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages.dir/build.make msex/CMakeFiles/msex_generate_messages.dir/build
 .PHONY : msex_generate_messages/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_gencpp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_gencpp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_gencpp.dir/rule
 .PHONY : msex/CMakeFiles/msex_gencpp.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ msex_gencpp: msex/CMakeFiles/msex_gencpp.dir/rule
 
 # fast build rule for target.
 msex_gencpp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_gencpp.dir/build.make msex/CMakeFiles/msex_gencpp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_gencpp.dir/build.make msex/CMakeFiles/msex_gencpp.dir/build
 .PHONY : msex_gencpp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_geneus.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_geneus.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_geneus.dir/rule
 .PHONY : msex/CMakeFiles/msex_geneus.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ msex_geneus: msex/CMakeFiles/msex_geneus.dir/rule
 
 # fast build rule for target.
 msex_geneus/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_geneus.dir/build.make msex/CMakeFiles/msex_geneus.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_geneus.dir/build.make msex/CMakeFiles/msex_geneus.dir/build
 .PHONY : msex_geneus/fast
 
 # Convenience name for target.
 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ rosgraph_msgs_generate_messages_py: msex/CMakeFiles/rosgraph_msgs_generate_messa
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_gennodejs.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_gennodejs.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_gennodejs.dir/rule
 .PHONY : msex/CMakeFiles/msex_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ msex_gennodejs: msex/CMakeFiles/msex_gennodejs.dir/rule
 
 # fast build rule for target.
 msex_gennodejs/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_gennodejs.dir/build.make msex/CMakeFiles/msex_gennodejs.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_gennodejs.dir/build.make msex/CMakeFiles/msex_gennodejs.dir/build
 .PHONY : msex_gennodejs/fast
 
 # Convenience name for target.
 msex/CMakeFiles/person_listener.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/person_listener.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/person_listener.dir/rule
 .PHONY : msex/CMakeFiles/person_listener.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ person_listener: msex/CMakeFiles/person_listener.dir/rule
 
 # fast build rule for target.
 person_listener/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/build
 .PHONY : person_listener/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_generate_messages_lisp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_lisp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_lisp.dir/rule
 .PHONY : msex/CMakeFiles/msex_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ msex_generate_messages_lisp: msex/CMakeFiles/msex_generate_messages_lisp.dir/rul
 
 # fast build rule for target.
 msex_generate_messages_lisp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_lisp.dir/build.make msex/CMakeFiles/msex_generate_messages_lisp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_lisp.dir/build.make msex/CMakeFiles/msex_generate_messages_lisp.dir/build
 .PHONY : msex_generate_messages_lisp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_generate_messages_nodejs.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_nodejs.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_nodejs.dir/rule
 .PHONY : msex/CMakeFiles/msex_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -539,12 +539,12 @@ msex_generate_messages_nodejs: msex/CMakeFiles/msex_generate_messages_nodejs.dir
 
 # fast build rule for target.
 msex_generate_messages_nodejs/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_nodejs.dir/build.make msex/CMakeFiles/msex_generate_messages_nodejs.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_nodejs.dir/build.make msex/CMakeFiles/msex_generate_messages_nodejs.dir/build
 .PHONY : msex_generate_messages_nodejs/fast
 
 # Convenience name for target.
 msex/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : msex/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -554,12 +554,12 @@ std_msgs_generate_messages_py: msex/CMakeFiles/std_msgs_generate_messages_py.dir
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/std_msgs_generate_messages_py.dir/build.make msex/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_generate_messages_py.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_py.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_generate_messages_py.dir/rule
 .PHONY : msex/CMakeFiles/msex_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ msex_generate_messages_py: msex/CMakeFiles/msex_generate_messages_py.dir/rule
 
 # fast build rule for target.
 msex_generate_messages_py/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_py.dir/build.make msex/CMakeFiles/msex_generate_messages_py.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_generate_messages_py.dir/build.make msex/CMakeFiles/msex_generate_messages_py.dir/build
 .PHONY : msex_generate_messages_py/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_genlisp.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_genlisp.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_genlisp.dir/rule
 .PHONY : msex/CMakeFiles/msex_genlisp.dir/rule
 
 # Convenience name for target.
@@ -584,12 +584,12 @@ msex_genlisp: msex/CMakeFiles/msex_genlisp.dir/rule
 
 # fast build rule for target.
 msex_genlisp/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_genlisp.dir/build.make msex/CMakeFiles/msex_genlisp.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_genlisp.dir/build.make msex/CMakeFiles/msex_genlisp.dir/build
 .PHONY : msex_genlisp/fast
 
 # Convenience name for target.
 msex/CMakeFiles/msex_genpy.dir/rule:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_genpy.dir/rule
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f CMakeFiles/Makefile2 msex/CMakeFiles/msex_genpy.dir/rule
 .PHONY : msex/CMakeFiles/msex_genpy.dir/rule
 
 # Convenience name for target.
@@ -599,7 +599,7 @@ msex_genpy: msex/CMakeFiles/msex_genpy.dir/rule
 
 # fast build rule for target.
 msex_genpy/fast:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_genpy.dir/build.make msex/CMakeFiles/msex_genpy.dir/build
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/msex_genpy.dir/build.make msex/CMakeFiles/msex_genpy.dir/build
 .PHONY : msex_genpy/fast
 
 src/a1.o: src/a1.cpp.o
@@ -608,7 +608,7 @@ src/a1.o: src/a1.cpp.o
 
 # target to build an object file
 src/a1.cpp.o:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/src/a1.cpp.o
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/src/a1.cpp.o
 .PHONY : src/a1.cpp.o
 
 src/a1.i: src/a1.cpp.i
@@ -617,7 +617,7 @@ src/a1.i: src/a1.cpp.i
 
 # target to preprocess a source file
 src/a1.cpp.i:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/src/a1.cpp.i
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/src/a1.cpp.i
 .PHONY : src/a1.cpp.i
 
 src/a1.s: src/a1.cpp.s
@@ -626,7 +626,7 @@ src/a1.s: src/a1.cpp.s
 
 # target to generate assembly for a file
 src/a1.cpp.s:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/src/a1.cpp.s
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_listener.dir/build.make msex/CMakeFiles/person_listener.dir/src/a1.cpp.s
 .PHONY : src/a1.cpp.s
 
 src/b1.o: src/b1.cpp.o
@@ -635,7 +635,7 @@ src/b1.o: src/b1.cpp.o
 
 # target to build an object file
 src/b1.cpp.o:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/src/b1.cpp.o
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/src/b1.cpp.o
 .PHONY : src/b1.cpp.o
 
 src/b1.i: src/b1.cpp.i
@@ -644,7 +644,7 @@ src/b1.i: src/b1.cpp.i
 
 # target to preprocess a source file
 src/b1.cpp.i:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/src/b1.cpp.i
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/src/b1.cpp.i
 .PHONY : src/b1.cpp.i
 
 src/b1.s: src/b1.cpp.s
@@ -653,7 +653,7 @@ src/b1.s: src/b1.cpp.s
 
 # target to generate assembly for a file
 src/b1.cpp.s:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/src/b1.cpp.s
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(MAKE) -f msex/CMakeFiles/person_talker.dir/build.make msex/CMakeFiles/person_talker.dir/src/b1.cpp.s
 .PHONY : src/b1.cpp.s
 
 # Help Target
@@ -715,6 +715,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

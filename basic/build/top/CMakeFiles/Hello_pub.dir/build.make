@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
 
 # Include any dependencies generated for this target.
 include top/CMakeFiles/Hello_pub.dir/depend.make
@@ -58,17 +58,17 @@ include top/CMakeFiles/Hello_pub.dir/progress.make
 include top/CMakeFiles/Hello_pub.dir/flags.make
 
 top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o: top/CMakeFiles/Hello_pub.dir/flags.make
-top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/src/top/src/a1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o"
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_pub.dir/src/a1.cpp.o -c "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/top/src/a1.cpp"
+top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o: /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/src/top/src/a1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o"
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/top" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_pub.dir/src/a1.cpp.o -c "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top/src/a1.cpp"
 
 top/CMakeFiles/Hello_pub.dir/src/a1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_pub.dir/src/a1.cpp.i"
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/top/src/a1.cpp" > CMakeFiles/Hello_pub.dir/src/a1.cpp.i
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/top" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top/src/a1.cpp" > CMakeFiles/Hello_pub.dir/src/a1.cpp.i
 
 top/CMakeFiles/Hello_pub.dir/src/a1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_pub.dir/src/a1.cpp.s"
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/top/src/a1.cpp" -o CMakeFiles/Hello_pub.dir/src/a1.cpp.s
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/top" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top/src/a1.cpp" -o CMakeFiles/Hello_pub.dir/src/a1.cpp.s
 
 # Object files for target Hello_pub
 Hello_pub_OBJECTS = \
@@ -77,39 +77,39 @@ Hello_pub_OBJECTS = \
 # External object files for target Hello_pub
 Hello_pub_EXTERNAL_OBJECTS =
 
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: top/CMakeFiles/Hello_pub.dir/build.make
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libroscpp.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libpthread.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librosconsole.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libroscpp_serialization.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libxmlrpcpp.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librostime.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libcpp_common.so
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: top/CMakeFiles/Hello_pub.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable \"/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/top/Hello_pub\""
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hello_pub.dir/link.txt --verbose=$(VERBOSE)
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: top/CMakeFiles/Hello_pub.dir/src/a1.cpp.o
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: top/CMakeFiles/Hello_pub.dir/build.make
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libroscpp.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libpthread.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librosconsole.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libroscpp_serialization.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libxmlrpcpp.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/librostime.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /opt/ros/noetic/lib/libcpp_common.so
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub: top/CMakeFiles/Hello_pub.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable \"/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/top/Hello_pub\""
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/top" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hello_pub.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-top/CMakeFiles/Hello_pub.dir/build: /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub
+top/CMakeFiles/Hello_pub.dir/build: /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/lib/top/Hello_pub
 
 .PHONY : top/CMakeFiles/Hello_pub.dir/build
 
 top/CMakeFiles/Hello_pub.dir/clean:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top" && $(CMAKE_COMMAND) -P CMakeFiles/Hello_pub.dir/cmake_clean.cmake
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/top" && $(CMAKE_COMMAND) -P CMakeFiles/Hello_pub.dir/cmake_clean.cmake
 .PHONY : top/CMakeFiles/Hello_pub.dir/clean
 
 top/CMakeFiles/Hello_pub.dir/depend:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/top" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/top/CMakeFiles/Hello_pub.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/top" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/top/CMakeFiles/Hello_pub.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : top/CMakeFiles/Hello_pub.dir/depend
 

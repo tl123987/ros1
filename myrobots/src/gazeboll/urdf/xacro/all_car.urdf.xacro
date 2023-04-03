@@ -1,0 +1,13 @@
+<!-- 组合小车底盘与摄像头 
+     注意导入顺序-->
+<robot name="my_car_camera" xmlns:xacro="http://wiki.ros.org/xacro">
+    <xacro:include filename="inert.urdf.xacro" />
+    <xacro:include filename="base.urdf.xacro" />
+    <xacro:include filename="cramer.urdf.xacro" />
+    <xacro:include filename="liadar.urdf.xacro" /> 
+    <!--gazeboo 插件-->
+    <xacro:include filename="gaze/move.urdf.xacro" /> 
+    <xacro:include filename="gaze/laidr.urdf.xacro" /> 
+    <xacro:include filename="gaze/carmear.xacro" /> 
+    <xacro:include filename="gaze/kinet.xacro" /> 
+</robot>

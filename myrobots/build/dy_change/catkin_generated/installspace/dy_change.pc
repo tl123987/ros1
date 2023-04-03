@@ -1,0 +1,8 @@
+prefix=/media/q/Elenments/5ubuntu/rosresoure/ros1/myrobots/install
+
+Name: dy_change
+Description: Description of dy_change
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

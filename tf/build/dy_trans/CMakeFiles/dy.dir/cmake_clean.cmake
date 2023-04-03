@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/dy_trans/dy"
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/dy_trans/dy.pdb"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/dy_trans/dy"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/dy_trans/dy.pdb"
   "CMakeFiles/dy.dir/src/sub.cpp.o"
 )
 

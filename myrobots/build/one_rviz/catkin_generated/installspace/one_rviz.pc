@@ -1,0 +1,8 @@
+prefix=/media/q/Elenments/5ubuntu/rosresoure/ros1/myrobots/install
+
+Name: one_rviz
+Description: Description of one_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

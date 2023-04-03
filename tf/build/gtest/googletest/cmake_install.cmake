@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/six/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

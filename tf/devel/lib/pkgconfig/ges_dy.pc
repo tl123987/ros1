@@ -1,4 +1,4 @@
-prefix=/media/y/Elements/ubuntu/ros resoure/ros1/six/devel
+prefix=/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel
 
 Name: ges_dy
 Description: Description of ges_dy

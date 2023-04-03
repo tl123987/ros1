@@ -1,2 +1,2 @@
 launch:msex:my_bag:op:param:pub_private:ser:test:top
--DCATKIN_DEVEL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel -DCMAKE_INSTALL_PREFIX=/media/y/Elements/ubuntu/ros resoure/ros1/basic/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel -DCMAKE_INSTALL_PREFIX=/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install -G Unix Makefiles

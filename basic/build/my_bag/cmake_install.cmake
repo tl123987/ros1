@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/basic/src/my_bag
+# Install script for directory: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/my_bag
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/basic/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_bag" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/my_bag/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_bag" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/my_bag/package.xml")
 endif()
 

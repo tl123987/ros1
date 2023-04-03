@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "param"
-PROJECT_SPACE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel"
+PROJECT_SPACE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel"
 PROJECT_VERSION = "0.0.0"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp/ros/msex/msg/Person.lisp"
+  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp/ros/msex/msg/Person.lisp"
   "CMakeFiles/msex_generate_messages_lisp"
 )
 

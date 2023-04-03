@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/tu_test/control_turtle"
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/tu_test/control_turtle.pdb"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/tu_test/control_turtle"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/tu_test/control_turtle.pdb"
   "CMakeFiles/control_turtle.dir/src/control.cpp.o"
 )
 

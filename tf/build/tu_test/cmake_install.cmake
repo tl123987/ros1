@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/six/src/tu_test
+# Install script for directory: /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/tu_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/six/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/catkin_generated/installspace/tu_test.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/tu_test/catkin_generated/installspace/tu_test.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tu_test/cmake" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/catkin_generated/installspace/tu_testConfig.cmake"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/catkin_generated/installspace/tu_testConfig-version.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/tu_test/catkin_generated/installspace/tu_testConfig.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/tu_test/catkin_generated/installspace/tu_testConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tu_test" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/tu_test/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tu_test" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/tu_test/package.xml")
 endif()
 

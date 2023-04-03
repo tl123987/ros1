@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/top/src/a2.cpp
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top/src/a2.cpp
 ros/ros.h
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/top/src/ros/ros.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top/src/ros/ros.h
 std_msgs/String.h
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/top/src/std_msgs/String.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top/src/std_msgs/String.h
 sstream
 -
 

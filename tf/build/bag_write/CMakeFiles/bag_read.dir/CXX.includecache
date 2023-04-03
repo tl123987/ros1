@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write/src/bag_read.cpp
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write/src/bag_read.cpp
 ros/ros.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write/src/ros/ros.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write/src/ros/ros.h
 rosbag/bag.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write/src/rosbag/bag.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write/src/rosbag/bag.h
 rosbag/view.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write/src/rosbag/view.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write/src/rosbag/view.h
 std_msgs/String.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write/src/std_msgs/String.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write/src/std_msgs/String.h
 std_msgs/Int32.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/bag_write/src/std_msgs/Int32.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/bag_write/src/std_msgs/Int32.h
 
 /opt/ros/noetic/include/class_loader/class_loader.hpp
 boost/bind.hpp

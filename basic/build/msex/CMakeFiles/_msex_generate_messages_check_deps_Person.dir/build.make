@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
 
 # Utility rule file for _msex_generate_messages_check_deps_Person.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build"
 include msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/progress.make
 
 msex/CMakeFiles/_msex_generate_messages_check_deps_Person:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msex /media/y/Elements/ubuntu/ros\ resoure/ros1/basic/src/msex/msg/Person.msg 
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msex /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/src/msex/msg/Person.msg 
 
 _msex_generate_messages_check_deps_Person: msex/CMakeFiles/_msex_generate_messages_check_deps_Person
 _msex_generate_messages_check_deps_Person: msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build.make
@@ -67,10 +67,10 @@ msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build: _msex_gener
 .PHONY : msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/build
 
 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/clean:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex" && $(CMAKE_COMMAND) -P CMakeFiles/_msex_generate_messages_check_deps_Person.dir/cmake_clean.cmake
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex" && $(CMAKE_COMMAND) -P CMakeFiles/_msex_generate_messages_check_deps_Person.dir/cmake_clean.cmake
 .PHONY : msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/clean
 
 msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/depend:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/msex" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex" "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/msex" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : msex/CMakeFiles/_msex_generate_messages_check_deps_Person.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/tu_test/new"
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/tu_test/new.pdb"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/tu_test/new"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/tu_test/new.pdb"
   "CMakeFiles/new.dir/src/new.cpp.o"
 )
 

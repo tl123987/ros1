@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/six/src
+# Install script for directory: /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/six/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,93 +49,93 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/y/Elements/ubuntu/ros resoure/ros1/six/install/_setup_util.py")
+   "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/y/Elements/ubuntu/ros resoure/ros1/six/install" TYPE PROGRAM FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install" TYPE PROGRAM FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/y/Elements/ubuntu/ros resoure/ros1/six/install/env.sh")
+   "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/y/Elements/ubuntu/ros resoure/ros1/six/install" TYPE PROGRAM FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install" TYPE PROGRAM FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/y/Elements/ubuntu/ros resoure/ros1/six/install/setup.bash;/media/y/Elements/ubuntu/ros resoure/ros1/six/install/local_setup.bash")
+   "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/setup.bash;/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/y/Elements/ubuntu/ros resoure/ros1/six/install" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/setup.bash"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install" TYPE FILE FILES
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/setup.bash"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/y/Elements/ubuntu/ros resoure/ros1/six/install/setup.sh;/media/y/Elements/ubuntu/ros resoure/ros1/six/install/local_setup.sh")
+   "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/setup.sh;/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/y/Elements/ubuntu/ros resoure/ros1/six/install" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/setup.sh"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install" TYPE FILE FILES
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/setup.sh"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/y/Elements/ubuntu/ros resoure/ros1/six/install/setup.zsh;/media/y/Elements/ubuntu/ros resoure/ros1/six/install/local_setup.zsh")
+   "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/setup.zsh;/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/y/Elements/ubuntu/ros resoure/ros1/six/install" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/setup.zsh"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install" TYPE FILE FILES
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/setup.zsh"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/y/Elements/ubuntu/ros resoure/ros1/six/install/.rosinstall")
+   "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/y/Elements/ubuntu/ros resoure/ros1/six/install" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gtest/cmake_install.cmake")
-  include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/bag_write/cmake_install.cmake")
-  include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans/cmake_install.cmake")
-  include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/cmake_install.cmake")
-  include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy/cmake_install.cmake")
-  include("/media/y/Elements/ubuntu/ros resoure/ros1/six/build/tu_test/cmake_install.cmake")
+  include("/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/gtest/cmake_install.cmake")
+  include("/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/bag_write/cmake_install.cmake")
+  include("/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans/cmake_install.cmake")
+  include("/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/gesture/cmake_install.cmake")
+  include("/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/ges_dy/cmake_install.cmake")
+  include("/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/tu_test/cmake_install.cmake")
 
 endif()
 
@@ -147,5 +147,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

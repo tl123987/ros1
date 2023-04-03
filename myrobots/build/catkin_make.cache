@@ -1,0 +1,2 @@
+dy_change:gazeboll:nav:nodel:one_rviz:plug:up
+-DCATKIN_DEVEL_PREFIX=/media/q/Elenments/5ubuntu/rosresoure/ros1/myrobots/devel -DCMAKE_INSTALL_PREFIX=/media/q/Elenments/5ubuntu/rosresoure/ros1/myrobots/install -G Unix Makefiles

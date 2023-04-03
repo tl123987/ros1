@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/gesture/pub"
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib/gesture/pub.pdb"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/gesture/pub"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib/gesture/pub.pdb"
   "CMakeFiles/pub.dir/src/pub.cpp.o"
 )
 

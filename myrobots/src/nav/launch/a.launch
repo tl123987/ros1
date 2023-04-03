@@ -1,0 +1,16 @@
+<launch>
+    <!-- 启动 rviz gazebo已经发布了话题 rviz相当于个订阅 -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find nav)/rviz/a.rviz"/>
+
+    <!-- 关节以及机器人状态发布节点 -->
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+    <!-- 地图载入-->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find nav)/map/map.yaml"/>
+
+    <include file="$(find nav)/launch/movebase.launch" />
+    
+        <!-- arml -->
+    <include file="$(find nav)/launch/amcl.launch" />
+</launch>

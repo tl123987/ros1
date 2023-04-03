@@ -1,0 +1,5 @@
+<launch>
+    <param name="robot_description" textfile="$(find one_rviz)/urdf/urdf/a.urdf" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find one_rviz)/config/box.rviz" />
+</launch>
+

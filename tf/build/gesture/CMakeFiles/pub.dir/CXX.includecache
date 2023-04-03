@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/src/pub.cpp
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/gesture/src/pub.cpp
 ros/ros.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/src/ros/ros.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/gesture/src/ros/ros.h
 tf2_ros/static_transform_broadcaster.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/src/tf2_ros/static_transform_broadcaster.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/gesture/src/tf2_ros/static_transform_broadcaster.h
 geometry_msgs/TransformStamped.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/src/geometry_msgs/TransformStamped.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/gesture/src/geometry_msgs/TransformStamped.h
 tf2/LinearMath/Quaternion.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/src/tf2/LinearMath/Quaternion.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/gesture/src/tf2/LinearMath/Quaternion.h
 
 /opt/ros/noetic/include/geometry_msgs/Quaternion.h
 string

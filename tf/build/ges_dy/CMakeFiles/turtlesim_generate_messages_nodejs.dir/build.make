@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build"
 
 # Utility rule file for turtlesim_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build: turtlesim_genera
 .PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
 
 ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy" && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/ges_dy" && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
 
 ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/six/src" "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/ges_dy" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/ges_dy" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/ges_dy" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : ges_dy/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
 

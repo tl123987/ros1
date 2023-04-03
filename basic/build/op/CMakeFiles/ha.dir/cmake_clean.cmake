@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/op/ha"
-  "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/op/ha.pdb"
+  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/op/ha"
+  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/op/ha.pdb"
   "CMakeFiles/ha.dir/src/a.cpp.o"
 )
 

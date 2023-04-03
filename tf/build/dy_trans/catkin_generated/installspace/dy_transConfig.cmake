@@ -67,14 +67,14 @@ set(dy_trans_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dy_trans_SOURCE_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans)
-  set(dy_trans_DEVEL_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/six/devel)
+  set(dy_trans_SOURCE_PREFIX /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans)
+  set(dy_trans_DEVEL_PREFIX /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel)
   set(dy_trans_INSTALL_PREFIX "")
   set(dy_trans_PREFIX ${dy_trans_DEVEL_PREFIX})
 else()
   set(dy_trans_SOURCE_PREFIX "")
   set(dy_trans_DEVEL_PREFIX "")
-  set(dy_trans_INSTALL_PREFIX /media/y/Elements/ubuntu/ros resoure/ros1/six/install)
+  set(dy_trans_INSTALL_PREFIX /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install)
   set(dy_trans_PREFIX ${dy_trans_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /media/y/Elements/ubuntu/ros resoure/ros1/six/install/lib;/media/y/Elements/ubuntu/ros resoure/ros1/six/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install/lib;/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

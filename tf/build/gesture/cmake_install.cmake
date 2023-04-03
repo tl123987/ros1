@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture
+# Install script for directory: /media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/gesture
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/six/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/catkin_generated/installspace/gesture.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/gesture/catkin_generated/installspace/gesture.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gesture/cmake" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/catkin_generated/installspace/gestureConfig.cmake"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/gesture/catkin_generated/installspace/gestureConfig-version.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/gesture/catkin_generated/installspace/gestureConfig.cmake"
+    "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/gesture/catkin_generated/installspace/gestureConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gesture" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/gesture/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gesture" TYPE FILE FILES "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/gesture/package.xml")
 endif()
 

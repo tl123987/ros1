@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/tu_test/src/new.cpp
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/tu_test/src/new.cpp
 ros/ros.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/tu_test/src/ros/ros.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/tu_test/src/ros/ros.h
 turtlesim/Spawn.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/tu_test/src/turtlesim/Spawn.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/tu_test/src/turtlesim/Spawn.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

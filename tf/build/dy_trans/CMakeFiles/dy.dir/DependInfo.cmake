@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/sub.cpp" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/dy_trans/CMakeFiles/dy.dir/src/sub.cpp.o"
+  "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/sub.cpp" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/dy_trans/CMakeFiles/dy.dir/src/sub.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

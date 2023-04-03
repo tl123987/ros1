@@ -1,0 +1,8 @@
+prefix=/media/q/Elenments/5ubuntu/rosresoure/ros1/myrobots/devel
+
+Name: gazeboll
+Description: Description of gazeboll
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

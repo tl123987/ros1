@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv"
+services_str = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv"
 pkg_name = "ser"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

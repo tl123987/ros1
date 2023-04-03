@@ -1,8 +1,8 @@
-# Install script for directory: /media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser
+# Install script for directory: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/y/Elements/ubuntu/ros resoure/ros1/basic/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser/srv" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser/srv" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser/srv/op.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser/cmake" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/ser-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser/cmake" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/ser-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/include/ser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include/ser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/roseus/ros/ser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/roseus/ros/ser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp/ros/ser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp/ros/ser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/share/gennodejs/ros/ser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/gennodejs/ros/ser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/ser")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/ser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/ser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/ser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/ser.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/ser.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser/cmake" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/ser-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser/cmake" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/ser-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser/cmake" TYPE FILE FILES
-    "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/serConfig.cmake"
-    "/media/y/Elements/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/serConfig-version.cmake"
+    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/serConfig.cmake"
+    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/catkin_generated/installspace/serConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser" TYPE FILE FILES "/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/ser/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ser" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser/package.xml")
 endif()
 

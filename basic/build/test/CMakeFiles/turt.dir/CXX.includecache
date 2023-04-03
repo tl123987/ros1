@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/test/src/one.cpp
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/test/src/one.cpp
 ros/ros.h
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/test/src/ros/ros.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/test/src/ros/ros.h
 geometry_msgs/Twist.h
-/media/y/Elements/ubuntu/ros resoure/ros1/basic/src/test/src/geometry_msgs/Twist.h
+/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/test/src/geometry_msgs/Twist.h
 
 /opt/ros/noetic/include/geometry_msgs/Twist.h
 string

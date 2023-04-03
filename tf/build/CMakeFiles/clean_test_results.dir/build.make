@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/src"
+CMAKE_SOURCE_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/build"
+CMAKE_BINARY_DIR = "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build"
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/media/y/Elements/ubuntu/ros resoure/ros1/six/build"
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /media/y/Elements/ubuntu/ros\ resoure/ros1/six/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /media/q/Elenments/5ubuntu/ros\ resoure/ros1/tf/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/y/Elements/ubuntu/ros resoure/ros1/six/src" "/media/y/Elements/ubuntu/ros resoure/ros1/six/src" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build" "/media/y/Elements/ubuntu/ros resoure/ros1/six/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build" "/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

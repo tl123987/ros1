@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/sub.cpp
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/sub.cpp
 ros/ros.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/ros/ros.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/ros/ros.h
 tf2_ros/transform_listener.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/tf2_ros/transform_listener.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/tf2_ros/transform_listener.h
 tf2_ros/buffer.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/tf2_ros/buffer.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/tf2_ros/buffer.h
 geometry_msgs/PointStamped.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/geometry_msgs/PointStamped.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/geometry_msgs/PointStamped.h
 tf2_geometry_msgs/tf2_geometry_msgs.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/tf2_geometry_msgs/tf2_geometry_msgs.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/tf2_geometry_msgs/tf2_geometry_msgs.h
 geometry_msgs/TransformStamped.h
-/media/y/Elements/ubuntu/ros resoure/ros1/six/src/dy_trans/src/geometry_msgs/TransformStamped.h
+/media/q/Elenments/5ubuntu/ros resoure/ros1/tf/src/dy_trans/src/geometry_msgs/TransformStamped.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

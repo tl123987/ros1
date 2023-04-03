@@ -1,7 +1,7 @@
 #include"ros/ros.h"
 #include"turtlesim/Pose.h"
-#include"tf2_ros/transform_broadcaster.h"
-#include"geometry_msgs/TransformStamped.h"
+#include"tf2_ros/transform_broadcaster.h"//坐标变换框架
+#include"geometry_msgs/TransformStamped.h"//几何转变信息
 #include"tf2/LinearMath/Quaternion.h"
 
 /*
@@ -14,7 +14,7 @@
 std::string turtle_name;
 void dopose(const turtlesim::Pose::ConstPtr& pose)
 {
-    static tf2_ros::TransformBroadcaster pub;
+    static tf2_ros::TransformBroadcaster pub;//转换广播
     geometry_msgs::TransformStamped ts;
     ts.header.frame_id="world";
     ts.header.stamp=ros::Time::now();
