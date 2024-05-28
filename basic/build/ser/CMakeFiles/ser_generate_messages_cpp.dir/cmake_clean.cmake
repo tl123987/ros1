@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include/ser/op.h"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/include/ser/op.h"
   "CMakeFiles/ser_generate_messages_cpp"
 )
 

@@ -1,8 +1,8 @@
-prefix=/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel
+prefix=/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel
 
 Name: op
 Description: Description of op
 Version: 0.0.0
-Cflags: -I/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/op/include
+Cflags: -I/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/op/include
 Libs: -L${prefix}/lib 
 Requires: 

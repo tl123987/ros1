@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build
 
 # Utility rule file for ser_genlisp.
 
@@ -63,10 +63,10 @@ ser/CMakeFiles/ser_genlisp.dir/build: ser_genlisp
 .PHONY : ser/CMakeFiles/ser_genlisp.dir/build
 
 ser/CMakeFiles/ser_genlisp.dir/clean:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_genlisp.dir/cmake_clean.cmake
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser && $(CMAKE_COMMAND) -P CMakeFiles/ser_genlisp.dir/cmake_clean.cmake
 .PHONY : ser/CMakeFiles/ser_genlisp.dir/clean
 
 ser/CMakeFiles/ser_genlisp.dir/depend:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/CMakeFiles/ser_genlisp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/ser /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser/CMakeFiles/ser_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ser/CMakeFiles/ser_genlisp.dir/depend
 

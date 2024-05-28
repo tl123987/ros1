@@ -1,8 +1,0 @@
-prefix=/home/y/桌面/ros resoure/ros1/four/install
-
-Name: tou1
-Description: Description of tou1
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

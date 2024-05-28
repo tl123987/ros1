@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build
 
 # Utility rule file for ser_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include ser/CMakeFiles/ser_generate_messages_nodejs.dir/progress.make
 
-ser/CMakeFiles/ser_generate_messages_nodejs: /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js
+ser/CMakeFiles/ser_generate_messages_nodejs: /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js
 
 
-/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js: /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/src/ser/srv/op.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ser/op.srv"
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/src/ser/srv/op.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ser -o /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/share/gennodejs/ros/ser/srv
+/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js: /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/ser/srv/op.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ser/op.srv"
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/ser/srv/op.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ser -o /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/gennodejs/ros/ser/srv
 
 ser_generate_messages_nodejs: ser/CMakeFiles/ser_generate_messages_nodejs
-ser_generate_messages_nodejs: /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js
+ser_generate_messages_nodejs: /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js
 ser_generate_messages_nodejs: ser/CMakeFiles/ser_generate_messages_nodejs.dir/build.make
 
 .PHONY : ser_generate_messages_nodejs
@@ -73,10 +73,10 @@ ser/CMakeFiles/ser_generate_messages_nodejs.dir/build: ser_generate_messages_nod
 .PHONY : ser/CMakeFiles/ser_generate_messages_nodejs.dir/build
 
 ser/CMakeFiles/ser_generate_messages_nodejs.dir/clean:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/ser_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser && $(CMAKE_COMMAND) -P CMakeFiles/ser_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ser/CMakeFiles/ser_generate_messages_nodejs.dir/clean
 
 ser/CMakeFiles/ser_generate_messages_nodejs.dir/depend:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/CMakeFiles/ser_generate_messages_nodejs.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/ser /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser/CMakeFiles/ser_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ser/CMakeFiles/ser_generate_messages_nodejs.dir/depend
 

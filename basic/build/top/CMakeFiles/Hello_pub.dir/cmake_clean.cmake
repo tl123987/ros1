@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/top/Hello_pub"
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/top/Hello_pub.pdb"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/top/Hello_pub"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/top/Hello_pub.pdb"
   "CMakeFiles/Hello_pub.dir/src/a1.cpp.o"
 )
 

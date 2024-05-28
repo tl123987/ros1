@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/param/src/b.cpp
+/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/param/src/b.cpp
 ros/ros.h
-/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/param/src/ros/ros.h
+/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/param/src/ros/ros.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

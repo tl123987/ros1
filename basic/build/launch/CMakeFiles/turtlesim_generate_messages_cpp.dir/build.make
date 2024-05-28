@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build
 
 # Utility rule file for turtlesim_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/build: turtlesim_generate_
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
 
 launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/launch" && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/launch && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
 
 launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/depend:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/launch" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/launch" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/launch /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/launch /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : launch/CMakeFiles/turtlesim_generate_messages_cpp.dir/depend
 

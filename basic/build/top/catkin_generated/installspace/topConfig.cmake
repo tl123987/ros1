@@ -67,14 +67,14 @@ set(top_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(top_SOURCE_PREFIX /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/top)
-  set(top_DEVEL_PREFIX /media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel)
+  set(top_SOURCE_PREFIX /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/top)
+  set(top_DEVEL_PREFIX /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel)
   set(top_INSTALL_PREFIX "")
   set(top_PREFIX ${top_DEVEL_PREFIX})
 else()
   set(top_SOURCE_PREFIX "")
   set(top_DEVEL_PREFIX "")
-  set(top_INSTALL_PREFIX /media/q/Elenments/ubuntu/ros resoure/ros1/basic/install)
+  set(top_INSTALL_PREFIX /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/install)
   set(top_PREFIX ${top_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /media/q/Elenments/ubuntu/ros resoure/ros1/basic/install/lib;/opt/ros/noetic/lib)
+    foreach(path /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

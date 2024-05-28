@@ -1,4 +1,4 @@
-prefix=/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel
+prefix=/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel
 
 Name: launch
 Description: Description of launch

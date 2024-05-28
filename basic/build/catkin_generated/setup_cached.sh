@@ -7,7 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel:$CMAKE_PREFIX_PATH"
-export PWD='/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel:$CMAKE_PREFIX_PATH"
+export PWD='/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build'
+export ROS_PACKAGE_PATH="/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src:$ROS_PACKAGE_PATH"

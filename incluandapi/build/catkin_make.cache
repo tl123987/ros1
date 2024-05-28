@@ -1,0 +1,2 @@
+api:tou:tou1
+-DCATKIN_DEVEL_PREFIX=/media/t/Elenments/5ubuntu/rosresoure/ros1/incluandapi/devel -DCMAKE_INSTALL_PREFIX=/media/t/Elenments/5ubuntu/rosresoure/ros1/incluandapi/install -G Unix Makefiles

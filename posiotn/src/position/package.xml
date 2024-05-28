@@ -1,0 +1,23 @@
+<package format="2">
+  <name>position</name>
+  <version>0.0.0</version>
+  <description>The path_display_examples package</description>
+
+  <maintainer email="user@domain.tld">Your Name</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>

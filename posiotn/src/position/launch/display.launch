@@ -1,0 +1,7 @@
+<launch>
+  <node name="path_publisher" pkg="position" type="path_publisher" output="screen"/>
+  <node name="pose_array_publisher" pkg="position" type="pose_array_publisher" output="screen"/>
+  <node name="marker_publisher" pkg="position" type="marker_publisher" output="screen"/>
+  
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find position)/po.rviz" output="screen"/>
+</launch>

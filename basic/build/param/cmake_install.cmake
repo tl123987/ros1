@@ -1,8 +1,8 @@
-# Install script for directory: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/param
+# Install script for directory: /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/param
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/param/catkin_generated/installspace/param.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/param/catkin_generated/installspace/param.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/param/cmake" TYPE FILE FILES
-    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/param/catkin_generated/installspace/paramConfig.cmake"
-    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/param/catkin_generated/installspace/paramConfig-version.cmake"
+    "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/param/catkin_generated/installspace/paramConfig.cmake"
+    "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/param/catkin_generated/installspace/paramConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/param" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/param/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/param" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/param/package.xml")
 endif()
 

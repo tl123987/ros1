@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build
 
 # Utility rule file for _ser_generate_messages_check_deps_op.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
 include ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/progress.make
 
 ser/CMakeFiles/_ser_generate_messages_check_deps_op:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ser /media/q/Elenments/ubuntu/ros\ resoure/ros1/basic/src/ser/srv/op.srv 
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ser /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/ser/srv/op.srv 
 
 _ser_generate_messages_check_deps_op: ser/CMakeFiles/_ser_generate_messages_check_deps_op
 _ser_generate_messages_check_deps_op: ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/build.make
@@ -67,10 +67,10 @@ ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/build: _ser_generate_mes
 .PHONY : ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/build
 
 ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/clean:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" && $(CMAKE_COMMAND) -P CMakeFiles/_ser_generate_messages_check_deps_op.dir/cmake_clean.cmake
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser && $(CMAKE_COMMAND) -P CMakeFiles/_ser_generate_messages_check_deps_op.dir/cmake_clean.cmake
 .PHONY : ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/clean
 
 ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/depend:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/ser" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/ser /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ser/CMakeFiles/_ser_generate_messages_check_deps_op.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/msex/msg/_Person.py"
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/msex/msg/__init__.py"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/python3/dist-packages/msex/msg/_Person.py"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/python3/dist-packages/msex/msg/__init__.py"
   "CMakeFiles/msex_generate_messages_py"
 )
 

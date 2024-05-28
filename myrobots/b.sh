@@ -1,2 +1,2 @@
  source devel/setup.bash
- roslaunch nav a.launch
+ roslaunch nav auto_slam.launch

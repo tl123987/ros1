@@ -3,5 +3,12 @@
     "python.autoComplete.extraPaths": [
         "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages",
         "/opt/ros/noetic/lib/python3/dist-packages"
-    ]
+    ],
+    "python.analysis.extraPaths": [
+        "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "files.associations": {
+        "string": "cpp"
+    }
 }

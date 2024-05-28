@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs;message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "msex"
-PROJECT_SPACE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install"
+PROJECT_SPACE_DIR = "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/install"
 PROJECT_VERSION = "0.0.0"

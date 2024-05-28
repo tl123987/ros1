@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src"
+CMAKE_SOURCE_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build"
+CMAKE_BINARY_DIR = /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build" "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

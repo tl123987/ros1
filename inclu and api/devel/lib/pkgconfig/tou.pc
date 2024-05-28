@@ -1,8 +1,0 @@
-prefix=/home/y/桌面/ros resoure/ros1/four/devel
-
-Name: tou
-Description: Description of tou
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

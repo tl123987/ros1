@@ -1,0 +1,8 @@
+prefix=/media/t/Elenments/5ubuntu/rosresoure/ros1/incluandapi/devel
+
+Name: api
+Description: Description of api
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

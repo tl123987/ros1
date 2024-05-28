@@ -1,8 +1,8 @@
-# Install script for directory: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/test
+# Install script for directory: /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/test/catkin_generated/installspace/test.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/test/catkin_generated/installspace/test.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test/cmake" TYPE FILE FILES
-    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/test/catkin_generated/installspace/testConfig.cmake"
-    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/test/catkin_generated/installspace/testConfig-version.cmake"
+    "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/test/catkin_generated/installspace/testConfig.cmake"
+    "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/test/catkin_generated/installspace/testConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/test/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/test/package.xml")
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/msex
+# Install script for directory: /media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/msex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/install")
+  set(CMAKE_INSTALL_PREFIX "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex/msg" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/msex/msg/Person.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex/msg" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/msex/msg/Person.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex/cmake" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/catkin_generated/installspace/msex-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex/cmake" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/msex/catkin_generated/installspace/msex-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/include/msex")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/include/msex")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/roseus/ros/msex")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/roseus/ros/msex")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/common-lisp/ros/msex")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/common-lisp/ros/msex")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/gennodejs/ros/msex")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/gennodejs/ros/msex")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/msex")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/python3/dist-packages/msex")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/python3/dist-packages/msex")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/python3/dist-packages/msex")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/catkin_generated/installspace/msex.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/msex/catkin_generated/installspace/msex.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex/cmake" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/catkin_generated/installspace/msex-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex/cmake" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/msex/catkin_generated/installspace/msex-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex/cmake" TYPE FILE FILES
-    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/catkin_generated/installspace/msexConfig.cmake"
-    "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/build/msex/catkin_generated/installspace/msexConfig-version.cmake"
+    "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/msex/catkin_generated/installspace/msexConfig.cmake"
+    "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/build/msex/catkin_generated/installspace/msexConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex" TYPE FILE FILES "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/src/msex/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msex" TYPE FILE FILES "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/src/msex/package.xml")
 endif()
 

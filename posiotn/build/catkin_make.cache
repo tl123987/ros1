@@ -1,0 +1,2 @@
+position
+-DCATKIN_DEVEL_PREFIX=/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel -DCMAKE_INSTALL_PREFIX=/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/install -G Unix Makefiles

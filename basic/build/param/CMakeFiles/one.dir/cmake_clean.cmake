@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/param/one"
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/lib/param/one.pdb"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/param/one"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/lib/param/one.pdb"
   "CMakeFiles/one.dir/src/a.cpp.o"
 )
 

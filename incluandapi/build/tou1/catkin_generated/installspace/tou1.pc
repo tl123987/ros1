@@ -1,0 +1,8 @@
+prefix=/media/t/Elenments/5ubuntu/rosresoure/ros1/incluandapi/install
+
+Name: tou1
+Description: Description of tou1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

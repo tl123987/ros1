@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/media/q/Elenments/ubuntu/ros resoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js"
+  "/media/q/Elenments/5ubuntu/rosresoure/ros1/basic/devel/share/gennodejs/ros/ser/srv/op.js"
   "CMakeFiles/ser_generate_messages_nodejs"
 )
 
