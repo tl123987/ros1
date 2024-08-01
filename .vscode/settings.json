@@ -6,7 +6,8 @@
     "streambuf": "cpp",
     "fstream": "cpp",
     "*.tcc": "cpp",
-    "bitset": "cpp"
+    "bitset": "cpp",
+    "cmath": "cpp"
   },
   "ros.distro": "noetic",
   "C_Cpp_Runner.msvcBatchPath": "",

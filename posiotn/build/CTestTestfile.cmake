@@ -6,3 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("position")
+subdirs("ros_viz_tools-master")
+subdirs("custom_pointcloud")

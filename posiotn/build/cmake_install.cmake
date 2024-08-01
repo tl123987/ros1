@@ -132,6 +132,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build/gtest/cmake_install.cmake")
   include("/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build/position/cmake_install.cmake")
+  include("/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build/ros_viz_tools-master/cmake_install.cmake")
+  include("/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build/custom_pointcloud/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,4 @@
+<launch>
+  <node name="rviz_tools" pkg="position" type="rviz_tools" output="screen"/>
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find position)/po1.rviz" output="screen"/>
+</launch>

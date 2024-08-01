@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   visualization_msgs
   tf2
+  ros_viz_tools 
 )
 
 ## 声明catkin的包
@@ -27,6 +28,13 @@ target_link_libraries(pose_array_publisher ${catkin_LIBRARIES})
 
 add_executable(marker_publisher src/vizmarker.cpp)
 target_link_libraries(marker_publisher ${catkin_LIBRARIES})
+
+
+add_executable(rviz_tools src/rviz_tools.cpp)
+target_link_libraries(rviz_tools ${catkin_LIBRARIES})
+
+
+
 
 ## 安装可执行文件
 install(TARGETS path_publisher pose_array_publisher marker_publisher

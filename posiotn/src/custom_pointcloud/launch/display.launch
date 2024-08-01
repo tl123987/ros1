@@ -1,0 +1,19 @@
+<launch>
+    <arg name="map_size_x" default="10.0"/>
+    <arg name="map_size_y" default="10.0"/>
+    <arg name="map_size_z" default="2.0"/>
+    <arg name="start_x" default="0.0"/>
+    <arg name="start_y" default="0.0"/>
+    <arg name="start_z" default="0.0"/>
+    <arg name="start_vx" default="0.2"/>
+    <arg name="start_vy" default="0.2"/>
+    <arg name="start_vz" default="0.0"/>
+    <arg name="map_resolution" default="0.2"/>
+<!--  args="-d $(find custom_pointcloud)/rviz/custom_pointcloud.rviz"    -->
+    <node pkg="rviz" type="rviz" name="rviz"  required="true"/>
+
+    <node pkg="custom_pointcloud" name="custom_pointcloud_publisher" type="custom_pointcloud_publisher" output="screen"> 
+        
+    </node>
+
+</launch>

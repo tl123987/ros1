@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+position/CMakeFiles/rviz_tools.dir/rule:
+	cd /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build && $(MAKE) -f CMakeFiles/Makefile2 position/CMakeFiles/rviz_tools.dir/rule
+.PHONY : position/CMakeFiles/rviz_tools.dir/rule
+
+# Convenience name for target.
+rviz_tools: position/CMakeFiles/rviz_tools.dir/rule
+
+.PHONY : rviz_tools
+
+# fast build rule for target.
+rviz_tools/fast:
+	cd /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build && $(MAKE) -f position/CMakeFiles/rviz_tools.dir/build.make position/CMakeFiles/rviz_tools.dir/build
+.PHONY : rviz_tools/fast
+
+# Convenience name for target.
 position/CMakeFiles/marker_publisher.dir/rule:
 	cd /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build && $(MAKE) -f CMakeFiles/Makefile2 position/CMakeFiles/marker_publisher.dir/rule
 .PHONY : position/CMakeFiles/marker_publisher.dir/rule
@@ -866,6 +881,33 @@ src/nva.cpp.s:
 	cd /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build && $(MAKE) -f position/CMakeFiles/pose_array_publisher.dir/build.make position/CMakeFiles/pose_array_publisher.dir/src/nva.cpp.s
 .PHONY : src/nva.cpp.s
 
+src/rviz_tools.o: src/rviz_tools.cpp.o
+
+.PHONY : src/rviz_tools.o
+
+# target to build an object file
+src/rviz_tools.cpp.o:
+	cd /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build && $(MAKE) -f position/CMakeFiles/rviz_tools.dir/build.make position/CMakeFiles/rviz_tools.dir/src/rviz_tools.cpp.o
+.PHONY : src/rviz_tools.cpp.o
+
+src/rviz_tools.i: src/rviz_tools.cpp.i
+
+.PHONY : src/rviz_tools.i
+
+# target to preprocess a source file
+src/rviz_tools.cpp.i:
+	cd /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build && $(MAKE) -f position/CMakeFiles/rviz_tools.dir/build.make position/CMakeFiles/rviz_tools.dir/src/rviz_tools.cpp.i
+.PHONY : src/rviz_tools.cpp.i
+
+src/rviz_tools.s: src/rviz_tools.cpp.s
+
+.PHONY : src/rviz_tools.s
+
+# target to generate assembly for a file
+src/rviz_tools.cpp.s:
+	cd /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/build && $(MAKE) -f position/CMakeFiles/rviz_tools.dir/build.make position/CMakeFiles/rviz_tools.dir/src/rviz_tools.cpp.s
+.PHONY : src/rviz_tools.cpp.s
+
 src/vizmarker.o: src/vizmarker.cpp.o
 
 .PHONY : src/vizmarker.o
@@ -901,6 +943,7 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... edit_cache"
+	@echo "... rviz_tools"
 	@echo "... marker_publisher"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_lisp"
@@ -955,6 +998,9 @@ help:
 	@echo "... src/nva.o"
 	@echo "... src/nva.i"
 	@echo "... src/nva.s"
+	@echo "... src/rviz_tools.o"
+	@echo "... src/rviz_tools.i"
+	@echo "... src/rviz_tools.s"
 	@echo "... src/vizmarker.o"
 	@echo "... src/vizmarker.i"
 	@echo "... src/vizmarker.s"

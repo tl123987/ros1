@@ -79,6 +79,7 @@ marker_publisher_EXTERNAL_OBJECTS =
 
 /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel/lib/position/marker_publisher: position/CMakeFiles/marker_publisher.dir/src/vizmarker.cpp.o
 /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel/lib/position/marker_publisher: position/CMakeFiles/marker_publisher.dir/build.make
+/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel/lib/position/marker_publisher: /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel/lib/libros_viz_tools.so
 /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel/lib/position/marker_publisher: /opt/ros/noetic/lib/libroscpp.so
 /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel/lib/position/marker_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
 /media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/devel/lib/position/marker_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0

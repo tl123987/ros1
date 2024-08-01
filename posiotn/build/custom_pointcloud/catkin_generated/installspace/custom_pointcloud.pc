@@ -1,0 +1,8 @@
+prefix=/media/t/Elenments/5ubuntu/rosresoure/ros1/posiotn/install
+
+Name: custom_pointcloud
+Description: Description of custom_pointcloud
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
